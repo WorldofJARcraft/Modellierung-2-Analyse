@@ -3,7 +3,7 @@
 Im Folgenden werden die notwendigen Fachbegriffe und Zusammenhänge näher erläutert. Des Weiteren werden systemrelevante Ablaufe im Einsatzbereich dargestellt und die erläuterten Fachbegriffe in Beziehung zu diesen Abläufen gesetzt.
 Dafür wird bewusst ein IST-Zustand der aktuellen Situation aufgeführt, um daraus den Einsatz des neuen Produktes (Soll-Zustand) herzuleiten.
 
-2. Beschreibung des Problembereichs
+2.1 Beschreibung des Problembereichs
 
 Im Rahmen der Aufgabenstellung wird hier auf eine Problembereichs-Beschreibung verzichtet. Allerdings sind folgende Annahmen über den Problembereich getroffen worden:
 - Stammdaten können geändert werden, allerdings sind manche dieser Daten (z.B. Kontodaten) bei einer Änderung zu verifizieren. Andere wiederum können ohne Verifizierung direkt geändert werden.
@@ -34,3 +34,20 @@ Funktion (eines Helfers): Eine von fünf Rollen (Personalbeauftragter, Neuhelfer
         # Funktion übergeben
             Überträgt eine Führungskraft seine Funktion auf einen anderen Helfer, so wird diese Änderung in den Daten vorgenommen.
 
+3 Produkfunktionen
+
+3.1 Anwendungsfälle im Überblick
+    ### TODO: Put Use Case Diagramme here
+
+3.2 Beschreibung der Anwendungsfälle
+    # Mitglied eintragen
+    # Stammdaten ändern
+    # Qualifikation aktualisieren
+    # aus Maltäsern austreten
+    # Gliederung wechseln
+    # Funktion ändern
+    # An ablaufende Daten erinnert werden
+
+    # Extern
+        # Mitgliedsantrag einreichen
+        # Mitgliedsantrag bearbeiten
