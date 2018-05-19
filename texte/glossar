@@ -8,9 +8,25 @@ Dafür wird bewusst ein IST-Zustand der aktuellen Situation aufgeführt, um dara
 Im Rahmen der Aufgabenstellung wird hier auf eine Problembereichs-Beschreibung verzichtet. Allerdings sind folgende Annahmen über den Problembereich getroffen worden:
 - Stammdaten können geändert werden, allerdings sind manche dieser Daten (z.B. Kontodaten) bei einer Änderung zu verifizieren. Andere wiederum können ohne Verifizierung direkt geändert werden.
 - Einsatzleiterausbildungen sind Qualifikationen, auch wenn sie im gegebenen Beispiel als eigene Spalte aufgeführt werden.
+- Fähigkeiten eines Helfers, die nicht urkundlich nachgewiesen werden müssen, werden nicht in der Personalverwaltung aufgeführt
 
 2.2 Glossar
 
 Stammdaten: Personenbezogene und persönliche Daten, die direkt beim Eintritt erfasst werden. Diese umfassen Namen, Vornamen, Geburtsdaten, Adresse, Telefon, Mailadresse und evtl. Bankdaten des jeweiligen Helfers.
 Helfer: Synonym zu Ehrenamtlicher, alle erfassten Mitglieder, die nicht hauptamtlich tätig sind. Bezieht sich nicht auf die Fähigkeit, an Sanitätseinsätzen o.Ä. teilnehmen zu können.
 Qualifikation: Urkundlich nachweisbare Befähigung eines Helfers. Dies Befähigung kann einerseits den Helfer zu mehr Aufgabenbereichen befähigen (wie das Führen eines Fahrzeugs) andererseits auch verpflichtend sein, um weiterhin Helfer zu sein (wie die Arbeitsmedizinische Untersuchung)
+
+2.3 Modell des Problembereichs
+    ### TODO: Put Klassendiagramme here
+
+2.4 Geschäftsprozesse
+    ### TODO: Put Geschäftsprozesse here
+        # Austreten
+            Wenn ein Mitlgied beschließt, die Maltäser zu verlassen, reicht seinen Antrag beim Personalbeauftragten ein, welcher infolgedessen die gesamten Daten des Mitlgieds archiviert.
+        # Mitglied werden
+            Wenn ein Außenstehener beschließt, den Maltäseren beizutreten, so füllt dieser mit evtl. Beteiligung des Neuhelferbeauftragten einen Antrag aus, welcher von der Diozöse bearbeitet wird. Das Ergebnis ist dann entweder eine Antragsablehnung oder die Eintragung der Stammdaten des Antragsstellers, was einem Beitritt entspricht. 
+        # Personenbezogene Daten ändern
+            Sollen Änderungen an Stammdaten eines Helfers vorgenommen werden, so reicht selbiger Helfer diese Änderungen beim Personalbeauftragten ein, welcher die Änderungen vornimmt. Betrifft die Änderung zu verifizierende Daten, so muss außerdem die Diozöse selbige verifizieren.
+        # Qualifikation(en) eintragen und prüfen
+            
+        # Funktion übergeben
