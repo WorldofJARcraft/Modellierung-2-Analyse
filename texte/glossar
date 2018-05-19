@@ -14,7 +14,9 @@ Im Rahmen der Aufgabenstellung wird hier auf eine Problembereichs-Beschreibung v
 
 Stammdaten: Personenbezogene und persönliche Daten, die direkt beim Eintritt erfasst werden. Diese umfassen Namen, Vornamen, Geburtsdaten, Adresse, Telefon, Mailadresse und evtl. Bankdaten des jeweiligen Helfers.
 Helfer: Synonym zu Ehrenamtlicher, alle erfassten Mitglieder, die nicht hauptamtlich tätig sind. Bezieht sich nicht auf die Fähigkeit, an Sanitätseinsätzen o.Ä. teilnehmen zu können.
-Qualifikation: Urkundlich nachweisbare Befähigung eines Helfers. Dies Befähigung kann einerseits den Helfer zu mehr Aufgabenbereichen befähigen (wie das Führen eines Fahrzeugs) andererseits auch verpflichtend sein, um weiterhin Helfer zu sein (wie die Arbeitsmedizinische Untersuchung)
+Qualifikation: Urkundlich nachweisbare Befähigung eines Helfers. Dies Befähigung kann einerseits den Helfer zu mehr Aufgabenbereichen befähigen (wie das Führen eines Fahrzeugs) andererseits auch verpflichtend sein, um weiterhin Helfer zu sein (wie die Arbeitsmedizinische Untersuchung). Qualifikationen können unbefirstet gültig sein, sie können aber auch nach einer gewissen Dauer ablaufen, und sie müssen erneut nachgewiesen werden.
+Führungskraft: Helfer mit einer Funktion
+Funktion (eines Helfers): Eine von fünf Rollen (Personalbeauftragter, Neuhelferbeauftragter, Ausbildungsbeauftragter, Einsatzkoordinator, Fahrzeugbeauftragter), von den immer nur genau eine immer nur genau einem Helfer übernommen werden kann.
 
 2.3 Modell des Problembereichs
     ### TODO: Put Klassendiagramme here
@@ -28,5 +30,8 @@ Qualifikation: Urkundlich nachweisbare Befähigung eines Helfers. Dies Befähigu
         # Personenbezogene Daten ändern
             Sollen Änderungen an Stammdaten eines Helfers vorgenommen werden, so reicht selbiger Helfer diese Änderungen beim Personalbeauftragten ein, welcher die Änderungen vornimmt. Betrifft die Änderung zu verifizierende Daten, so muss außerdem die Diozöse selbige verifizieren.
         # Qualifikation(en) eintragen und prüfen
-            
+            Laufen Qualifikationen ab oder erwirbt ein Helfer neue Qulifikationen, muss ein Helfer die Urkunde bezüglich der Qualifikation beim Ausbildungsbeauftragten einreichen. Dieser trägt die neue Qualifikation je nach Ergebnis der Prüfung aus oder aktualisiert sie.
         # Funktion übergeben
+            Überträgt eine Führungskraft seine Funktion auf einen anderen Helfer, so wird diese Änderung in den Daten vorgenommen.
+
+    
