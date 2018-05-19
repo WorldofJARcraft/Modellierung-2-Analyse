@@ -1,0 +1,16 @@
+2 Produkteinsatz
+
+Im Folgenden werden die notwendigen Fachbegriffe und Zusammenhänge näher erläutert. Des Weiteren werden systemrelevante Ablaufe im Einsatzbereich dargestellt und die erläuterten Fachbegriffe in Beziehung zu diesen Abläufen gesetzt.
+Dafür wird bewusst ein IST-Zustand der aktuellen Situation aufgeführt, um daraus den Einsatz des neuen Produktes (Soll-Zustand) herzuleiten.
+
+2. Beschreibung des Problembereichs
+
+Im Rahmen der Aufgabenstellung wird hier auf eine Problembereichs-Beschreibung verzichtet. Allerdings sind folgende Annahmen über den Problembereich getroffen worden:
+- Stammdaten können geändert werden, allerdings sind manche dieser Daten (z.B. Kontodaten) bei einer Änderung zu verifizieren. Andere wiederum können ohne Verifizierung direkt geändert werden.
+- Einsatzleiterausbildungen sind Qualifikationen, auch wenn sie im gegebenen Beispiel als eigene Spalte aufgeführt werden.
+
+2.2 Glossar
+
+Stammdaten: Personenbezogene und persönliche Daten, die direkt beim Eintritt erfasst werden. Diese umfassen Namen, Vornamen, Geburtsdaten, Adresse, Telefon, Mailadresse und evtl. Bankdaten des jeweiligen Helfers.
+Helfer: Synonym zu Ehrenamtlicher, alle erfassten Mitglieder, die nicht hauptamtlich tätig sind. Bezieht sich nicht auf die Fähigkeit, an Sanitätseinsätzen o.Ä. teilnehmen zu können.
+Qualifikation: Urkundlich nachweisbare Befähigung eines Helfers. Dies Befähigung kann einerseits den Helfer zu mehr Aufgabenbereichen befähigen (wie das Führen eines Fahrzeugs) andererseits auch verpflichtend sein, um weiterhin Helfer zu sein (wie die Arbeitsmedizinische Untersuchung)
