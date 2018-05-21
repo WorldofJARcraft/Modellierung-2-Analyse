@@ -65,7 +65,7 @@
 	\setbeamercovered{invisible}
 	
 	\title[Review - Analyseprojekt]{Review - Analyseprojekt\\ Eine Mitgliederverwaltung für den Malteser Hilfsdienst}
-	\author[Eric Ackermann]{Robin Wersich\\Eric Ackermann\\ Gruppe 3}
+	\author[Robin Wersich\\Eric Ackermann]{Robin Wersich\\Eric Ackermann\\ Gruppe 3}
 	
 	 \begin{frame}[title=Hauptgebaeude_Nacht.jpg]
 	 \maketitle
@@ -109,7 +109,7 @@ Im Rahmen der Aufgabenstellung wird hier auf eine Problembereichs-Beschreibung v
 \begin{frame}
 \frametitle{Glossar*}
 \begin{acronym}[Führungskraft]  
-	\acro{Qualifikation}{Urkundlich nachweisbare Befähigung eines Helfers. Diese Befähigung kann einerseits den Helfer zu mehr Aufgabenbereichen befähigen (wie das Führen eines Fahrzeugs) andererseits auch verpflichtend sein, um weiterhin Helfer zu sein (wie die Arbeitsmedizinische Untersuchung). Qualifikationen können unbefristet gültig sein, sie können aber auch nach einer gewissen Dauer ablaufen und müssen danach erneut nachgewiesen werden (z.B. Führerschein).
+	\acro{Qualifikation}{Urkundlich nachweisbare Befähigung eines Helfers. Diese Befähigung kann einerseits den Helfer zu mehr Aufgabenbereichen befähigen (wie dem Führen eines Fahrzeugs) andererseits auch verpflichtend sein, um weiterhin Helfer zu sein (wie die Arbeitsmedizinische Untersuchung). Qualifikationen können unbefristet gültig sein, sie können aber auch nach einer gewissen Dauer ablaufen und müssen danach erneut nachgewiesen werden (z.B. Führerschein).
 	}
 	\acro{Führungskraft}{Helfer, die eine von den fünf Rollen Personalbeauftragter, Neuhelferbeauftragter,
 		Ausbildungsbeauftragter, Einsatzkoordinator und Fahrzeugbeauftragter übernommen haben. Ein Helfer kann jeweils höchstens eine solche Funktion übernehmen.}  
@@ -152,7 +152,7 @@ Wenn ein Mitglied beschließt, die Malteser zu verlassen, reicht es seinen Antra
 \section{Produktfunktion}		
 \begin{frame}
 \frametitle{Produktfunktion}
-\includegraphics[height=0.75 \textheight]{PDF/Use_Case_Diagram/Use_Case.pdf}
+\includegraphics[height=0.75 \textheight]{PDF/Use_Case.pdf}
 \end{frame}
 
 
@@ -171,19 +171,19 @@ Wenn ein Mitglied beschließt, die Malteser zu verlassen, reicht es seinen Antra
 \frametitle{Eine Qualifikation eintragen oder aktualisieren}
 \includegraphics[width=\textwidth]{PDF/BusinessP/Qualifikation_eintragen.pdf}
 \pause
-Laufen Qualifikationen ab oder erwirbt ein Helfer neue Qualifikationen, muss ein Helfer die Urkunde bezüglich der Qualifikation beim Ausbildungsbeauftragten einreichen. Dieser trägt die neue Qualifikation je nach Ergebnis der Prüfung aus oder aktualisiert sie.
+Laufen Qualifikationen ab oder erwirbt ein Helfer neue Qualifikationen, muss ein Helfer die Urkunde bezüglich der Qualifikation beim Personalbeauftragten einreichen. Dieser konsultiert ggf. den Ausbildungsbeauftragten und trägt die neue Qualifikation je nach Ergebnis der Prüfung aus oder aktualisiert sie.
 \end{frame}
 
 \begin{frame}
 \frametitle{Anwendungsfälle im Überblick}
-\begin{acronym}[An ablaufende Daten erinnert werden]
+\begin{acronym}[ablaufende Qualifikationen anzeigen]
 \acro{aus Maltesern austreten}{ Um die Malteser zu verlassen, reicht ein Helfer seine Kündigung direkt bei der Gliederung ein. Seine Daten werden dann archiviert.}
 \pause
 \acro{Gliederung wechseln} {Bei einem Wechsel der Gliederung wird die Gliederungszuordnung entsprechend geändert.}
 \pause
 \acro{Funktion ändern} {Bei einem Erwerb oder einem Wechsel der Funktion in der Gliederung wird der Helfer entsprechend zugeordnet.}
 \pause
-\acro{An ablaufende Daten erinnert werden} {Läuft die Gültigkeit einer Qualifikation (z.B. Führerschein) ab, benachrichtigt das System den Personal- und den Ausbildungsbeauftragten.}
+\acro{ablaufende Qualifikationen anzeigen} {Läuft die Gültigkeit einer Qualifikation (z.B. Führerschein) ab, benachrichtigt das System den Personal- und den Ausbildungsbeauftragten.}
 \end{acronym}
 \end{frame}
 \begin{frame}
