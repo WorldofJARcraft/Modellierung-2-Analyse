@@ -101,7 +101,6 @@ Im Rahmen der Aufgabenstellung wird hier auf eine Problembereichs-Beschreibung v
 \frametitle{Glossar*}
 \begin{acronym}[Qualifikation]  
 	\acro{Stammdaten}{Personenbezogene und persönliche Daten, die direkt beim Eintritt erfasst werden. Diese umfassen Namen, Vornamen, Geburtsdaten, Adresse, Telefon, Mailadresse und evtl. Bankdaten des jeweiligen Helfers.} 
-	\pause
 	\acro{Helfer}{Synonym zu Ehrenamtlicher, alle erfassten Mitglieder, die nicht hauptamtlich tätig sind. Bezieht sich nicht auf die Fähigkeit, an Sanitätseinsätzen o.Ä. teilnehmen zu können.}  
 	
 \end{acronym}
@@ -112,7 +111,6 @@ Im Rahmen der Aufgabenstellung wird hier auf eine Problembereichs-Beschreibung v
 \begin{acronym}[Führungskraft]  
 	\acro{Qualifikation}{Urkundlich nachweisbare Befähigung eines Helfers. Diese Befähigung kann einerseits den Helfer zu mehr Aufgabenbereichen befähigen (wie das Führen eines Fahrzeugs) andererseits auch verpflichtend sein, um weiterhin Helfer zu sein (wie die Arbeitsmedizinische Untersuchung). Qualifikationen können unbefristet gültig sein, sie können aber auch nach einer gewissen Dauer ablaufen und müssen danach erneut nachgewiesen werden (z.B. Führerschein).
 	}
-	\pause
 	\acro{Führungskraft}{Helfer, die eine von den fünf Rollen Personalbeauftragter, Neuhelferbeauftragter,
 		Ausbildungsbeauftragter, Einsatzkoordinator und Fahrzeugbeauftragter übernommen haben. Ein Helfer kann jeweils höchstens eine solche Funktion übernehmen.}  
 \end{acronym}
@@ -142,12 +140,6 @@ Wenn ein Außenstehender beschließt, den Maltesern beizutreten, so füllt diese
 Sollen Änderungen an Stammdaten eines Helfers vorgenommen werden, so reicht selbiger Helfer diese Änderungen beim Personalbeauftragten ein, welcher die Änderungen vornimmt. Betrifft die Änderung zu verifizierende Daten, so muss außerdem die Diozöse selbige verifizieren.
 \end{frame}
 
-\begin{frame}
-\frametitle{Eine Qualifikation eintragen oder aktualisieren}
-\includegraphics[width=\textwidth]{PDF/BusinessP/Qualifikation_eintragen.pdf}
-\pause
-Laufen Qualifikationen ab oder erwirbt ein Helfer neue Qualifikationen, muss ein Helfer die Urkunde bezüglich der Qualifikation beim Ausbildungsbeauftragten einreichen. Dieser trägt die neue Qualifikation je nach Ergebnis der Prüfung aus oder aktualisiert sie.
-\end{frame}
 
 \begin{frame}
 \frametitle{Aus den Maltesern austreten}
@@ -168,30 +160,41 @@ Wenn ein Mitglied beschließt, die Malteser zu verlassen, reicht es seinen Antra
 \begin{frame}
 \frametitle{Anwendungsfälle im Überblick}
 \begin{itemize}
-	\item Mitglied eintragen
+	\item [Mitglied eintragen] Wenn ein Außenstehender den Maltesern beitreten will, muss sein Aufnahmeantrag von der bundesweiten Verwaltungsstelle bestätigt werden. Seine Stammdaten und evtl. bereits existierende Qualifikationen werden ins System eingetragen.
 	\pause
-	\item  Stammdaten ändern
+	\item  [Stammdaten ändern] Ändern sich Stammdaten wie E-Mail-Adresse, muss diese Änderung von der Landesverwaltung bestätigt werden und wird danach ins System übernommen.
 	\pause
-	\item  Qualifikation aktualisieren
+	\item [Qualifikation aktualisieren] Wird eine neue Qualifikation wie eine neue Führerscheinklasse erworben, wird die zugehörige Urkunde geprüft und die Qualifikation eingespeichert.
+\end{itemize}
+\end{frame}
+\begin{frame}
+\frametitle{Eine Qualifikation eintragen oder aktualisieren}
+\includegraphics[width=\textwidth]{PDF/BusinessP/Qualifikation_eintragen.pdf}
+\pause
+Laufen Qualifikationen ab oder erwirbt ein Helfer neue Qualifikationen, muss ein Helfer die Urkunde bezüglich der Qualifikation beim Ausbildungsbeauftragten einreichen. Dieser trägt die neue Qualifikation je nach Ergebnis der Prüfung aus oder aktualisiert sie.
+\end{frame}
+
+\frametitle{Anwendungsfälle im Überblick}
+\begin{itemize}
+	\item [Mitglied eintragen] Wenn ein Außenstehender den Maltesern beitreten will, muss sein Aufnahmeantrag von der bundesweiten Verwaltungsstelle bestätigt werden. Seine Stammdaten und evtl. bereits existierende Qualifikationen werden ins System eingetragen.
+	\item  [Stammdaten ändern] Ändern sich Stammdaten wie E-Mail-Adresse, muss diese Änderung von der Landesverwaltung bestätigt werden und wird danach ins System übernommen.
+	\item [Qualifikation aktualisieren] Wird eine neue Qualifikation wie eine neue Führerscheinklasse erworben, wird die zugehörige Urkunde geprüft und die Qualifikation eingespeichert.
+	\item  [aus Maltesern austreten] Um die Malteser zu verlassen, reicht ein Helfer seine Kündigung direkt bei der Gliederung ein. Seine Daten werden dann archiviert.
 	\pause
-	\item  aus Maltesern austreten
+	\item  [Gliederung wechseln] Bei einem Wechsel der Gliederung wird die Gliederungszuordnung entsprechend geändert.
 	\pause
-	\item  Gliederung wechseln
+	\item  [Funktion ändern] Bei einem Erwerb oder einem Wechsel der Funktion in der Gliederung wird der Helfer entsprechend zugeordnet.
 	\pause
-	\item  Funktion ändern
-	\pause
-	\item  An ablaufende Daten erinnert werden
+	\item  [An ablaufende Daten erinnert werden] Läuft die Gültigkeit einer Qualifikation (z.B. Führerschein) ab, benachrichtigt das System den Personal- und den Ausbildungsbeauftragten.
 	\pause
 	\item  Extern
 	\begin{itemize}
-		\item  Mitgliedsantrag einreichen
+		\item  [Mitgliedsantrag einreichen] Ein Mitgliedsantrag geht an die bundesweite Personalverwaltung.
 		\pause
-		\item  Mitgliedsantrag bearbeiten
-\end{itemize}
+		\item  [Mitgliedsantrag bearbeiten] Die bundesweite Verwaltung entscheidet über Annahme oder Ablehnung dieses Antrags.
+	\end{itemize}
 \end{itemize}
 \end{frame}
-
-
 
 \begin{frame}[title=Hauptgebaeude_Nacht.jpg]
 \maketitle
