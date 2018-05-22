@@ -65,7 +65,7 @@
 	\setbeamercovered{invisible}
 	
 	\title[Review - Analyseprojekt]{Review - Analyseprojekt\\ Eine Mitgliederverwaltung für den Malteser Hilfsdienst}
-	\author[Eric Ackermann]{Eric Ackermann\\Tim Garrels\\ Gruppe 3}
+	\author[Eric Ackermann]{Robin Wersich\\Eric Ackermann\\ Gruppe 3}
 	
 	 \begin{frame}[title=Hauptgebaeude_Nacht.jpg]
 	 \maketitle
@@ -159,13 +159,13 @@ Wenn ein Mitglied beschließt, die Malteser zu verlassen, reicht es seinen Antra
 \subsection{Anwendungsfälle im Überblick}		
 \begin{frame}
 \frametitle{Anwendungsfälle im Überblick}
-\begin{itemize}
-	\item [Mitglied eintragen] Wenn ein Außenstehender den Maltesern beitreten will, muss sein Aufnahmeantrag von der bundesweiten Verwaltungsstelle bestätigt werden. Seine Stammdaten und evtl. bereits existierende Qualifikationen werden ins System eingetragen.
+\begin{acronym}[Qualifikation aktualisieren]
+	\acro{Mitglied eintragen} {Wenn ein Außenstehender den Maltesern beitreten will, muss sein Aufnahmeantrag von der bundesweiten Verwaltungsstelle bestätigt werden. Seine Stammdaten und evtl. bereits existierende Qualifikationen werden ins System eingetragen.}
 	\pause
-	\item  [Stammdaten ändern] Ändern sich Stammdaten wie E-Mail-Adresse, muss diese Änderung von der Landesverwaltung bestätigt werden und wird danach ins System übernommen.
+	\acro{Stammdaten ändern} {Ändern sich Stammdaten wie E-Mail-Adresse, muss diese Änderung von der Landesverwaltung bestätigt werden und wird danach ins System übernommen.}
 	\pause
-	\item [Qualifikation aktualisieren] Wird eine neue Qualifikation wie eine neue Führerscheinklasse erworben, wird die zugehörige Urkunde geprüft und die Qualifikation eingespeichert.
-\end{itemize}
+	\acro{Qualifikation aktualisieren} {Wird eine neue Qualifikation wie eine neue Führerscheinklasse erworben, wird die zugehörige Urkunde geprüft und die Qualifikation eingespeichert.}
+\end{acronym}
 \end{frame}
 \begin{frame}
 \frametitle{Eine Qualifikation eintragen oder aktualisieren}
@@ -174,28 +174,29 @@ Wenn ein Mitglied beschließt, die Malteser zu verlassen, reicht es seinen Antra
 Laufen Qualifikationen ab oder erwirbt ein Helfer neue Qualifikationen, muss ein Helfer die Urkunde bezüglich der Qualifikation beim Ausbildungsbeauftragten einreichen. Dieser trägt die neue Qualifikation je nach Ergebnis der Prüfung aus oder aktualisiert sie.
 \end{frame}
 
+\begin{frame}
 \frametitle{Anwendungsfälle im Überblick}
-\begin{itemize}
-	\item [Mitglied eintragen] Wenn ein Außenstehender den Maltesern beitreten will, muss sein Aufnahmeantrag von der bundesweiten Verwaltungsstelle bestätigt werden. Seine Stammdaten und evtl. bereits existierende Qualifikationen werden ins System eingetragen.
-	\item  [Stammdaten ändern] Ändern sich Stammdaten wie E-Mail-Adresse, muss diese Änderung von der Landesverwaltung bestätigt werden und wird danach ins System übernommen.
-	\item [Qualifikation aktualisieren] Wird eine neue Qualifikation wie eine neue Führerscheinklasse erworben, wird die zugehörige Urkunde geprüft und die Qualifikation eingespeichert.
-	\item  [aus Maltesern austreten] Um die Malteser zu verlassen, reicht ein Helfer seine Kündigung direkt bei der Gliederung ein. Seine Daten werden dann archiviert.
-	\pause
-	\item  [Gliederung wechseln] Bei einem Wechsel der Gliederung wird die Gliederungszuordnung entsprechend geändert.
-	\pause
-	\item  [Funktion ändern] Bei einem Erwerb oder einem Wechsel der Funktion in der Gliederung wird der Helfer entsprechend zugeordnet.
-	\pause
-	\item  [An ablaufende Daten erinnert werden] Läuft die Gültigkeit einer Qualifikation (z.B. Führerschein) ab, benachrichtigt das System den Personal- und den Ausbildungsbeauftragten.
-	\pause
-	\item  Extern
-	\begin{itemize}
-		\item  [Mitgliedsantrag einreichen] Ein Mitgliedsantrag geht an die bundesweite Personalverwaltung.
-		\pause
-		\item  [Mitgliedsantrag bearbeiten] Die bundesweite Verwaltung entscheidet über Annahme oder Ablehnung dieses Antrags.
-	\end{itemize}
-\end{itemize}
+\begin{acronym}[An ablaufende Daten erinnert werden]
+\acro{aus Maltesern austreten}{ Um die Malteser zu verlassen, reicht ein Helfer seine Kündigung direkt bei der Gliederung ein. Seine Daten werden dann archiviert.}
+\pause
+\acro{Gliederung wechseln} {Bei einem Wechsel der Gliederung wird die Gliederungszuordnung entsprechend geändert.}
+\pause
+\acro{Funktion ändern} {Bei einem Erwerb oder einem Wechsel der Funktion in der Gliederung wird der Helfer entsprechend zugeordnet.}
+\pause
+\acro{An ablaufende Daten erinnert werden} {Läuft die Gültigkeit einer Qualifikation (z.B. Führerschein) ab, benachrichtigt das System den Personal- und den Ausbildungsbeauftragten.}
+\end{acronym}
 \end{frame}
-
+\begin{frame}
+\frametitle{Anwendungsfälle im Überblick}
+\begin{acronym}[Extern]
+	\acro{Extern}{}
+\begin{acronym}[Mitgliedsantrag einreichen]
+	\acro{Mitgliedsantrag einreichen}{ Ein Mitgliedsantrag geht an die bundesweite Personalverwaltung.}
+	\pause
+	\acro{Mitgliedsantrag bearbeiten}{ Die bundesweite Verwaltung entscheidet über Annahme oder Ablehnung dieses Antrags.}
+\end{acronym}
+\end{acronym}
+\end{frame}
 \begin{frame}[title=Hauptgebaeude_Nacht.jpg]
 \maketitle
 \date{22. Mai 2018}
