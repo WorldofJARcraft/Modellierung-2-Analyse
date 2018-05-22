@@ -2,8 +2,7 @@
 \beamer@sectionintoc {1}{Produkteinsatz}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{Beschreibung des Problembereichs}{4}{0}{1}
 \beamer@subsectionintoc {1}{2}{Glossar}{5}{0}{1}
-\beamer@subsectionintoc {1}{3}{Modell des Problembereichs}{7}{0}{1}
-\beamer@subsectionintoc {1}{4}{Gesch\IeC {\"a}ftsprozesse}{9}{0}{1}
-\beamer@sectionintoc {2}{Produktfunktion}{17}{0}{2}
-\beamer@subsectionintoc {2}{1}{Anwendungsf\IeC {\"a}lle im \IeC {\"U}berblick}{18}{0}{2}
-\beamer@sectionintoc {3}{Quellen}{26}{0}{3}
+\beamer@subsectionintoc {1}{3}{Modell des Problembereichs}{9}{0}{1}
+\beamer@subsectionintoc {1}{4}{Gesch\IeC {\"a}ftsprozesse}{11}{0}{1}
+\beamer@sectionintoc {2}{Produktfunktion}{19}{0}{2}
+\beamer@subsectionintoc {2}{1}{Anwendungsf\IeC {\"a}lle im \IeC {\"U}berblick}{20}{0}{2}

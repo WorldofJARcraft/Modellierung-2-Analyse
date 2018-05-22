@@ -64,11 +64,12 @@
 			
 	\setbeamercovered{invisible}
 	
-	\title[Review Analyseprojekt]{Review Analyseprojekt}
-	\author[Eric Ackermann]{Eric Ackermann\\ Gruppe 3}
+	\title[Review - Analyseprojekt]{Review - Analyseprojekt\\ Eine Mitgliederverwaltung für den Malteser Hilfsdienst}
+	\author[Eric Ackermann]{Eric Ackermann\\Tim Garrels\\ Gruppe 3}
 	
 	 \begin{frame}[title=Hauptgebaeude_Nacht.jpg]
 	 \maketitle
+	 \date{22. Mai 2018}
  	\end{frame}
 	 
 	\begin{frame}
@@ -80,8 +81,8 @@
 \section{Produkteinsatz}		
 \begin{frame}
 \frametitle{Produkteinsatz*}
-Im Folgenden werden die notwendigen Fachbegriffe und Zusammenhänge näher erläutert. Des Weiteren werden systemrelevante Ablaufe im Einsatzbereich dargestellt und die erläuterten Fachbegriffe in Beziehung zu diesen Abläufen gesetzt.\\
-Dafür wird bewusst ein IST-Zustand der aktuellen Situation aufgeführt, um daraus den Einsatz des neuen Produktes (Soll-Zustand) herzuleiten.
+Im Folgenden werden die notwendigen Fachbegriffe und Zusammenhänge näher erläutert. Des Weiteren werden systemrelevante Abläufe im Einsatzbereich dargestellt und die erläuterten Fachbegriffe in Beziehung zu diesen Abläufen gesetzt.\\
+Dafür wird bewusst ein IST-Zustand der aktuellen Situation aufgeführt, um daraus den Einsatz des neuen Produktes (SOLL-Zustand) herzuleiten.
 \end{frame}
 
 \subsection{Beschreibung des Problembereichs}		
@@ -89,7 +90,7 @@ Dafür wird bewusst ein IST-Zustand der aktuellen Situation aufgeführt, um dara
 \frametitle{Beschreibung des Problembereichs*}
 Im Rahmen der Aufgabenstellung wird hier auf eine Problembereichs-Beschreibung verzichtet. Allerdings sind folgende Annahmen über den Problembereich getroffen worden:
 \begin{itemize}
-\item Stammdaten können geändert werden, allerdings sind manche dieser Daten (z.B. Kontodaten) bei einer Änderung zu verifizieren. Andere wiederum können ohne Verifizierung direkt geändert werden.
+\item Stammdaten können geändert werden, allerdings sind manche dieser Daten (z.B. E-Mail-Adresse) bei einer Änderung zu verifizieren. Andere wiederum können ohne Verifizierung direkt geändert werden.
 \item Einsatzleiterausbildungen sind Qualifikationen, auch wenn sie im gegebenen Beispiel als eigene Spalte aufgeführt werden.
 \item Fähigkeiten eines Helfers, die nicht urkundlich nachgewiesen werden müssen, werden nicht in der Personalverwaltung aufgeführt
 \end{itemize}
@@ -100,6 +101,7 @@ Im Rahmen der Aufgabenstellung wird hier auf eine Problembereichs-Beschreibung v
 \frametitle{Glossar*}
 \begin{acronym}[Qualifikation]  
 	\acro{Stammdaten}{Personenbezogene und persönliche Daten, die direkt beim Eintritt erfasst werden. Diese umfassen Namen, Vornamen, Geburtsdaten, Adresse, Telefon, Mailadresse und evtl. Bankdaten des jeweiligen Helfers.} 
+	\pause
 	\acro{Helfer}{Synonym zu Ehrenamtlicher, alle erfassten Mitglieder, die nicht hauptamtlich tätig sind. Bezieht sich nicht auf die Fähigkeit, an Sanitätseinsätzen o.Ä. teilnehmen zu können.}  
 	
 \end{acronym}
@@ -108,10 +110,11 @@ Im Rahmen der Aufgabenstellung wird hier auf eine Problembereichs-Beschreibung v
 \begin{frame}
 \frametitle{Glossar*}
 \begin{acronym}[Führungskraft]  
-	\acro{Qualifikation}{Urkundlich nachweisbare Befähigung eines Helfers. Dies Befähigung kann einerseits den Helfer zu mehr Aufgabenbereichen befähigen (wie das Führen eines Fahrzeugs) andererseits auch verpflichtend sein, um weiterhin Helfer zu sein (wie die Arbeitsmedizinische Untersuchung). Qualifikationen können unbefirstet gültig sein, sie können aber auch nach einer gewissen Dauer ablaufen, und sie müssen erneut nachgewiesen werden.
+	\acro{Qualifikation}{Urkundlich nachweisbare Befähigung eines Helfers. Diese Befähigung kann einerseits den Helfer zu mehr Aufgabenbereichen befähigen (wie das Führen eines Fahrzeugs) andererseits auch verpflichtend sein, um weiterhin Helfer zu sein (wie die Arbeitsmedizinische Untersuchung). Qualifikationen können unbefristet gültig sein, sie können aber auch nach einer gewissen Dauer ablaufen und müssen danach erneut nachgewiesen werden (z.B. Führerschein).
 	}
-	\acro{Führungskraft}{Helfer mit einer Funktion\\ Helfer mit einer Funktion
-		Funktion (eines Helfers): Eine von fünf Rollen (Personalbeauftragter, Neuhelferbeauftragter, Ausbildungsbeauftragter, Einsatzkoordinator, Fahrzeugbeauftragter), von den immer nur genau eine immer nur genau einem Helfer übernommen werden kann.}  
+	\pause
+	\acro{Führungskraft}{Helfer, die eine von den fünf Rollen Personalbeauftragter, Neuhelferbeauftragter,
+		Ausbildungsbeauftragter, Einsatzkoordinator und Fahrzeugbeauftragter übernommen haben. Ein Helfer kann jeweils höchstens eine solche Funktion übernehmen.}  
 \end{acronym}
 \end{frame}
 \subsection{Modell des Problembereichs}		
@@ -129,7 +132,7 @@ Im Rahmen der Aufgabenstellung wird hier auf eine Problembereichs-Beschreibung v
 \frametitle{Den Maltesern beitreten}
 \includegraphics[width=\textwidth]{PDF/BusinessP/Mitglied_werden.pdf}
 \pause
-Wenn ein Außenstehender beschließt, den Maltesern beizutreten, so füllt dieser mit evtl. Beteiligung des Neuhelferbeauftragten einen Antrag aus, welcher von der Diozöse bearbeitet wird. Das Ergebnis ist dann entweder eine Antragsablehnung oder die Eintragung der Stammdaten des Antragsstellers, was einem Beitritt entspricht. 
+Wenn ein Außenstehender beschließt, den Maltesern beizutreten, so füllt dieser evtl. mit Beteiligung des Neuhelferbeauftragten einen Antrag aus, welcher von der Diozöse bearbeitet wird. Das Ergebnis ist dann entweder eine Antragsablehnung oder die Eintragung der Stammdaten des Antragsstellers, was einem Beitritt entspricht. 
 \end{frame}
 
 \begin{frame}
@@ -150,7 +153,7 @@ Laufen Qualifikationen ab oder erwirbt ein Helfer neue Qualifikationen, muss ein
 \frametitle{Aus den Maltesern austreten}
 \includegraphics[width=\textwidth]{PDF/BusinessP/Austreten.pdf}
 \pause
-Wenn ein Mitglied beschließt, die Malteser zu verlassen, reicht seinen Antrag beim Personalbeauftragten ein, welcher infolgedessen die gesamten Daten des Mitglieds archiviert.
+Wenn ein Mitglied beschließt, die Malteser zu verlassen, reicht es seinen Antrag beim Personalbeauftragten ein, welcher infolgedessen die gesamten Daten des Mitglieds archiviert.
 \end{frame}
 
 
@@ -178,7 +181,7 @@ Wenn ein Mitglied beschließt, die Malteser zu verlassen, reicht seinen Antrag b
 	\item  Funktion ändern
 	\pause
 	\item  An ablaufende Daten erinnert werden
-	
+	\pause
 	\item  Extern
 	\begin{itemize}
 		\item  Mitgliedsantrag einreichen
@@ -189,12 +192,10 @@ Wenn ein Mitglied beschließt, die Malteser zu verlassen, reicht seinen Antrag b
 \end{frame}
 
 
-\section{Quellen}
-\begin{frame}
-		\frametitle{Quellen}
-		\begin{itemize}
-		  \item kleine graue und weiße Zellen
-		\end{itemize}
-	\end{frame}
+
+\begin{frame}[title=Hauptgebaeude_Nacht.jpg]
+\maketitle
+\date{22. Mai 2018}
+\end{frame}
 \end{document}
 			

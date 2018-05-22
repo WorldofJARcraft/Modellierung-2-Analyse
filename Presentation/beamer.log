@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.5.19)  19 MAY 2018 15:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.5.19)  22 MAY 2018 21:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1103,380 +1103,441 @@ Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 68.
 
 
-Overfull \hbox (179.53679pt too wide) in paragraph at lines 72--72
-[][][]  
+Overfull \hbox (179.53679pt too wide) in paragraph at lines 73--73
+[][][] 
  []
 
 
-Overfull \vbox (4.0pt too high) detected at line 72
+Overfull \vbox (24.0pt too high) detected at line 73
  []
 
-<../backgrounds/Hauptgebaeude_Nacht.jpg, id=49, 3603.4625pt x 1739.49875pt>
+<../backgrounds/Hauptgebaeude_Nacht.jpg, id=41, 3603.4625pt x 1739.49875pt>
 File: ../backgrounds/Hauptgebaeude_Nacht.jpg Graphic file (type jpg)
 <use ../backgrounds/Hauptgebaeude_Nacht.jpg>
 Package pdftex.def Info: ../backgrounds/Hauptgebaeude_Nacht.jpg  used on input 
-line 72.
+line 73.
 (pdftex.def)             Requested size: 680.3055pt x 328.3848pt.
-<logo-hpi-full.pdf, id=50, 245.83043pt x 138.91197pt>
+<logo-hpi-full.pdf, id=42, 245.83043pt x 138.91197pt>
 File: logo-hpi-full.pdf Graphic file (type pdf)
 <use logo-hpi-full.pdf>
-Package pdftex.def Info: logo-hpi-full.pdf  used on input line 72.
+Package pdftex.def Info: logo-hpi-full.pdf  used on input line 73.
 (pdftex.def)             Requested size: 108.12054pt x 61.09601pt.
 [1
 
  <../backgrounds/Hauptgebaeude_Nacht.jpg> <./logo-hpi-full.pdf>]
 (./beamer.toc)
-Overfull \hbox (0.28477pt too wide) in paragraph at lines 78--78
+Overfull \hbox (0.28477pt too wide) in paragraph at lines 79--79
 [][]  
  []
 
-<logo-hpi.pdf, id=90, 245.70496pt x 114.12135pt>
+<logo-hpi.pdf, id=80, 245.70496pt x 114.12135pt>
 File: logo-hpi.pdf Graphic file (type pdf)
 <use logo-hpi.pdf>
-Package pdftex.def Info: logo-hpi.pdf  used on input line 78.
+Package pdftex.def Info: logo-hpi.pdf  used on input line 79.
 (pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
 LaTeX Font Info:    Font shape `T1/neosans/bx/n' in size <10.5> not available
-(Font)              Font shape `T1/neosans/mb/n' tried instead on input line 78
+(Font)              Font shape `T1/neosans/mb/n' tried instead on input line 79
 .
 [2
 
  <./logo-hpi.pdf>]
-Overfull \hbox (0.28477pt too wide) in paragraph at lines 85--85
+Overfull \hbox (0.28477pt too wide) in paragraph at lines 86--86
 [][]  
  []
 
 File: logo-hpi.pdf Graphic file (type pdf)
 <use logo-hpi.pdf>
-Package pdftex.def Info: logo-hpi.pdf  used on input line 85.
+Package pdftex.def Info: logo-hpi.pdf  used on input line 86.
 (pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
 [3
 
 ]
-Overfull \hbox (0.28477pt too wide) in paragraph at lines 96--96
+Overfull \hbox (0.28477pt too wide) in paragraph at lines 97--97
 [][]  
  []
 
 File: logo-hpi.pdf Graphic file (type pdf)
 <use logo-hpi.pdf>
-Package pdftex.def Info: logo-hpi.pdf  used on input line 96.
+Package pdftex.def Info: logo-hpi.pdf  used on input line 97.
 (pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
 [4
 
 ]
 LaTeX Font Info:    Font shape `T1/neosans/bx/n' in size <14> not available
 (Font)              Font shape `T1/neosans/mb/n' tried instead on input line 10
-6.
+8.
 
-Overfull \hbox (0.28477pt too wide) in paragraph at lines 106--106
+Overfull \hbox (0.28477pt too wide) in paragraph at lines 108--108
 [][]  
  []
 
 File: logo-hpi.pdf Graphic file (type pdf)
 <use logo-hpi.pdf>
-Package pdftex.def Info: logo-hpi.pdf  used on input line 106.
+Package pdftex.def Info: logo-hpi.pdf  used on input line 108.
 (pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
 [5
 
-]
-Overfull \hbox (0.28477pt too wide) in paragraph at lines 116--116
+]pdfTeX warning (ext4): destination with the same identifier (name{Stammdaten})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.108 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{Helfer}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.108 \end{frame}
+                 
+Overfull \hbox (0.28477pt too wide) in paragraph at lines 108--108
 [][]  
  []
 
 File: logo-hpi.pdf Graphic file (type pdf)
 <use logo-hpi.pdf>
-Package pdftex.def Info: logo-hpi.pdf  used on input line 116.
+Package pdftex.def Info: logo-hpi.pdf  used on input line 108.
 (pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
 [6
 
 ]
-<PDF/Klassendiagramm_ist.pdf, id=159, 701.62125pt x 361.35pt>
-File: PDF/Klassendiagramm_ist.pdf Graphic file (type pdf)
-<use PDF/Klassendiagramm_ist.pdf>
-Package pdftex.def Info: PDF/Klassendiagramm_ist.pdf  used on input line 121.
-(pdftex.def)             Requested size: 543.16302pt x 279.76216pt.
-
-Overfull \hbox (0.28477pt too wide) in paragraph at lines 121--121
+Overfull \hbox (0.28477pt too wide) in paragraph at lines 119--119
 [][]  
  []
 
 File: logo-hpi.pdf Graphic file (type pdf)
 <use logo-hpi.pdf>
-Package pdftex.def Info: logo-hpi.pdf  used on input line 121.
+Package pdftex.def Info: logo-hpi.pdf  used on input line 119.
 (pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
 [7
 
- <./PDF/Klassendiagramm_ist.pdf>]
-<PDF/Klassendiagramm_soll.pdf, id=671, 709.90219pt x 280.04625pt>
-File: PDF/Klassendiagramm_soll.pdf Graphic file (type pdf)
-<use PDF/Klassendiagramm_soll.pdf>
-Package pdftex.def Info: PDF/Klassendiagramm_soll.pdf  used on input line 125.
-(pdftex.def)             Requested size: 543.16302pt x 214.27739pt.
-
-Overfull \hbox (0.28477pt too wide) in paragraph at lines 125--125
+]pdfTeX warning (ext4): destination with the same identifier (name{Qualifikatio
+n}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.119 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{F\\IeC\040{\\"u}hrungskraft}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.119 \end{frame}
+                 
+Overfull \hbox (0.28477pt too wide) in paragraph at lines 119--119
 [][]  
  []
 
 File: logo-hpi.pdf Graphic file (type pdf)
 <use logo-hpi.pdf>
-Package pdftex.def Info: logo-hpi.pdf  used on input line 125.
+Package pdftex.def Info: logo-hpi.pdf  used on input line 119.
 (pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
 [8
 
- <./PDF/Klassendiagramm_soll.pdf>]
-<PDF/BusinessP/Mitglied_werden.pdf, id=1160, 1025.33063pt x 174.6525pt>
-File: PDF/BusinessP/Mitglied_werden.pdf Graphic file (type pdf)
-<use PDF/BusinessP/Mitglied_werden.pdf>
-Package pdftex.def Info: PDF/BusinessP/Mitglied_werden.pdf  used on input line 
-133.
-(pdftex.def)             Requested size: 543.16302pt x 92.52007pt.
+]
+<PDF/Klassendiagramm_ist.pdf, id=161, 784.9325pt x 403.5075pt>
+File: PDF/Klassendiagramm_ist.pdf Graphic file (type pdf)
+<use PDF/Klassendiagramm_ist.pdf>
+Package pdftex.def Info: PDF/Klassendiagramm_ist.pdf  used on input line 124.
+(pdftex.def)             Requested size: 543.16302pt x 279.23935pt.
 
-Overfull \hbox (0.28477pt too wide) in paragraph at lines 133--133
+Overfull \hbox (0.28477pt too wide) in paragraph at lines 124--124
 [][]  
  []
 
 File: logo-hpi.pdf Graphic file (type pdf)
 <use logo-hpi.pdf>
-Package pdftex.def Info: logo-hpi.pdf  used on input line 133.
+Package pdftex.def Info: logo-hpi.pdf  used on input line 124.
 (pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
 [9
+
+ <./PDF/Klassendiagramm_ist.pdf>]
+<PDF/Klassendiagramm_soll.pdf, id=1790, 784.9325pt x 302.12875pt>
+File: PDF/Klassendiagramm_soll.pdf Graphic file (type pdf)
+<use PDF/Klassendiagramm_soll.pdf>
+Package pdftex.def Info: PDF/Klassendiagramm_soll.pdf  used on input line 128.
+(pdftex.def)             Requested size: 543.16302pt x 209.0822pt.
+
+Overfull \hbox (0.28477pt too wide) in paragraph at lines 128--128
+[][]  
+ []
+
+File: logo-hpi.pdf Graphic file (type pdf)
+<use logo-hpi.pdf>
+Package pdftex.def Info: logo-hpi.pdf  used on input line 128.
+(pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
+[10
+
+ <./PDF/Klassendiagramm_soll.pdf>]
+<PDF/BusinessP/Mitglied_werden.pdf, id=3192, 1025.33063pt x 174.6525pt>
+File: PDF/BusinessP/Mitglied_werden.pdf Graphic file (type pdf)
+<use PDF/BusinessP/Mitglied_werden.pdf>
+Package pdftex.def Info: PDF/BusinessP/Mitglied_werden.pdf  used on input line 
+136.
+(pdftex.def)             Requested size: 543.16302pt x 92.52007pt.
+
+Overfull \hbox (0.28477pt too wide) in paragraph at lines 136--136
+[][]  
+ []
+
+File: logo-hpi.pdf Graphic file (type pdf)
+<use logo-hpi.pdf>
+Package pdftex.def Info: logo-hpi.pdf  used on input line 136.
+(pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
+[11
 
  <./PDF/BusinessP/Mitglied_werden.pdf>]
 File: PDF/BusinessP/Mitglied_werden.pdf Graphic file (type pdf)
 <use PDF/BusinessP/Mitglied_werden.pdf>
 Package pdftex.def Info: PDF/BusinessP/Mitglied_werden.pdf  used on input line 
-133.
+136.
 (pdftex.def)             Requested size: 543.16302pt x 92.52007pt.
 
-Overfull \hbox (0.28477pt too wide) in paragraph at lines 133--133
+Overfull \hbox (0.28477pt too wide) in paragraph at lines 136--136
 [][]  
  []
 
 File: logo-hpi.pdf Graphic file (type pdf)
 <use logo-hpi.pdf>
-Package pdftex.def Info: logo-hpi.pdf  used on input line 133.
+Package pdftex.def Info: logo-hpi.pdf  used on input line 136.
 (pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
-[10
+[12
 
 ]
-<PDF/BusinessP/Daten_aendern.pdf, id=1461, 812.28468pt x 123.46124pt>
+<PDF/BusinessP/Daten_aendern.pdf, id=3499, 812.28468pt x 123.46124pt>
 File: PDF/BusinessP/Daten_aendern.pdf Graphic file (type pdf)
 <use PDF/BusinessP/Daten_aendern.pdf>
 Package pdftex.def Info: PDF/BusinessP/Daten_aendern.pdf  used on input line 14
-0.
+3.
 (pdftex.def)             Requested size: 543.16302pt x 82.55846pt.
 
-Overfull \hbox (0.28477pt too wide) in paragraph at lines 140--140
+Overfull \hbox (0.28477pt too wide) in paragraph at lines 143--143
 [][]  
  []
 
 File: logo-hpi.pdf Graphic file (type pdf)
 <use logo-hpi.pdf>
-Package pdftex.def Info: logo-hpi.pdf  used on input line 140.
+Package pdftex.def Info: logo-hpi.pdf  used on input line 143.
 (pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
-[11
+[13
 
  <./PDF/BusinessP/Daten_aendern.pdf>]
 File: PDF/BusinessP/Daten_aendern.pdf Graphic file (type pdf)
 <use PDF/BusinessP/Daten_aendern.pdf>
 Package pdftex.def Info: PDF/BusinessP/Daten_aendern.pdf  used on input line 14
-0.
+3.
 (pdftex.def)             Requested size: 543.16302pt x 82.55846pt.
 
-Overfull \hbox (0.28477pt too wide) in paragraph at lines 140--140
+Overfull \hbox (0.28477pt too wide) in paragraph at lines 143--143
 [][]  
  []
 
 File: logo-hpi.pdf Graphic file (type pdf)
 <use logo-hpi.pdf>
-Package pdftex.def Info: logo-hpi.pdf  used on input line 140.
+Package pdftex.def Info: logo-hpi.pdf  used on input line 143.
 (pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
-[12
+[14
 
 ]
-<PDF/BusinessP/Qualifikation_eintragen.pdf, id=1615, 1199.23032pt x 503.63156pt
->
+<PDF/BusinessP/Qualifikation_eintragen.pdf, id=3657, 537.00626pt x 224.84pt>
 File: PDF/BusinessP/Qualifikation_eintragen.pdf Graphic file (type pdf)
 <use PDF/BusinessP/Qualifikation_eintragen.pdf>
 Package pdftex.def Info: PDF/BusinessP/Qualifikation_eintragen.pdf  used on inp
-ut line 147.
-(pdftex.def)             Requested size: 543.16302pt x 228.11526pt.
+ut line 150.
+(pdftex.def)             Requested size: 543.16302pt x 227.41939pt.
 
-Overfull \hbox (0.28477pt too wide) in paragraph at lines 147--147
+Overfull \hbox (0.28477pt too wide) in paragraph at lines 150--150
 [][]  
  []
 
 File: logo-hpi.pdf Graphic file (type pdf)
 <use logo-hpi.pdf>
-Package pdftex.def Info: logo-hpi.pdf  used on input line 147.
+Package pdftex.def Info: logo-hpi.pdf  used on input line 150.
 (pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
-[13
+[15
 
  <./PDF/BusinessP/Qualifikation_eintragen.pdf>]
 File: PDF/BusinessP/Qualifikation_eintragen.pdf Graphic file (type pdf)
 <use PDF/BusinessP/Qualifikation_eintragen.pdf>
 Package pdftex.def Info: PDF/BusinessP/Qualifikation_eintragen.pdf  used on inp
-ut line 147.
-(pdftex.def)             Requested size: 543.16302pt x 228.11526pt.
+ut line 150.
+(pdftex.def)             Requested size: 543.16302pt x 227.41939pt.
 
-Overfull \hbox (0.28477pt too wide) in paragraph at lines 147--147
+Overfull \hbox (0.28477pt too wide) in paragraph at lines 150--150
 [][]  
  []
 
 File: logo-hpi.pdf Graphic file (type pdf)
 <use logo-hpi.pdf>
-Package pdftex.def Info: logo-hpi.pdf  used on input line 147.
-(pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
-[14
-
-]
-<PDF/BusinessP/Austreten.pdf, id=1885, 366.61969pt x 34.62938pt>
-File: PDF/BusinessP/Austreten.pdf Graphic file (type pdf)
-<use PDF/BusinessP/Austreten.pdf>
-Package pdftex.def Info: PDF/BusinessP/Austreten.pdf  used on input line 154.
-(pdftex.def)             Requested size: 543.16302pt x 51.31247pt.
-
-Overfull \hbox (0.28477pt too wide) in paragraph at lines 154--154
-[][]  
- []
-
-File: logo-hpi.pdf Graphic file (type pdf)
-<use logo-hpi.pdf>
-Package pdftex.def Info: logo-hpi.pdf  used on input line 154.
-(pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
-[15
-
- <./PDF/BusinessP/Austreten.pdf>]
-File: PDF/BusinessP/Austreten.pdf Graphic file (type pdf)
-<use PDF/BusinessP/Austreten.pdf>
-Package pdftex.def Info: PDF/BusinessP/Austreten.pdf  used on input line 154.
-(pdftex.def)             Requested size: 543.16302pt x 51.31247pt.
-
-Overfull \hbox (0.28477pt too wide) in paragraph at lines 154--154
-[][]  
- []
-
-File: logo-hpi.pdf Graphic file (type pdf)
-<use logo-hpi.pdf>
-Package pdftex.def Info: logo-hpi.pdf  used on input line 154.
+Package pdftex.def Info: logo-hpi.pdf  used on input line 150.
 (pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
 [16
 
 ]
-<PDF/Use_Case_Diagram/Use_Case.pdf, id=1962, 644.4075pt x 441.90094pt>
-File: PDF/Use_Case_Diagram/Use_Case.pdf Graphic file (type pdf)
-<use PDF/Use_Case_Diagram/Use_Case.pdf>
-Package pdftex.def Info: PDF/Use_Case_Diagram/Use_Case.pdf  used on input line 
-161.
-(pdftex.def)             Requested size: 440.26604pt x 301.8996pt.
+<PDF/BusinessP/Austreten.pdf, id=4437, 366.61969pt x 34.62938pt>
+File: PDF/BusinessP/Austreten.pdf Graphic file (type pdf)
+<use PDF/BusinessP/Austreten.pdf>
+Package pdftex.def Info: PDF/BusinessP/Austreten.pdf  used on input line 157.
+(pdftex.def)             Requested size: 543.16302pt x 51.31247pt.
 
-Overfull \hbox (0.28477pt too wide) in paragraph at lines 161--161
+Overfull \hbox (0.28477pt too wide) in paragraph at lines 157--157
 [][]  
  []
 
 File: logo-hpi.pdf Graphic file (type pdf)
 <use logo-hpi.pdf>
-Package pdftex.def Info: logo-hpi.pdf  used on input line 161.
+Package pdftex.def Info: logo-hpi.pdf  used on input line 157.
 (pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
 [17
 
- <./PDF/Use_Case_Diagram/Use_Case.pdf>]
-Overfull \hbox (0.28477pt too wide) in paragraph at lines 189--189
+ <./PDF/BusinessP/Austreten.pdf>]
+File: PDF/BusinessP/Austreten.pdf Graphic file (type pdf)
+<use PDF/BusinessP/Austreten.pdf>
+Package pdftex.def Info: PDF/BusinessP/Austreten.pdf  used on input line 157.
+(pdftex.def)             Requested size: 543.16302pt x 51.31247pt.
+
+Overfull \hbox (0.28477pt too wide) in paragraph at lines 157--157
 [][]  
  []
 
 File: logo-hpi.pdf Graphic file (type pdf)
 <use logo-hpi.pdf>
-Package pdftex.def Info: logo-hpi.pdf  used on input line 189.
+Package pdftex.def Info: logo-hpi.pdf  used on input line 157.
 (pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
 [18
 
 ]
-Overfull \hbox (0.28477pt too wide) in paragraph at lines 189--189
+<PDF/Use_Case_Diagram/Use_Case.pdf, id=4512, 784.9325pt x 501.87497pt>
+File: PDF/Use_Case_Diagram/Use_Case.pdf Graphic file (type pdf)
+<use PDF/Use_Case_Diagram/Use_Case.pdf>
+Package pdftex.def Info: PDF/Use_Case_Diagram/Use_Case.pdf  used on input line 
+164.
+(pdftex.def)             Requested size: 472.19676pt x 301.8996pt.
+
+Overfull \hbox (0.28477pt too wide) in paragraph at lines 164--164
 [][]  
  []
 
 File: logo-hpi.pdf Graphic file (type pdf)
 <use logo-hpi.pdf>
-Package pdftex.def Info: logo-hpi.pdf  used on input line 189.
+Package pdftex.def Info: logo-hpi.pdf  used on input line 164.
 (pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
 [19
 
-]
-Overfull \hbox (0.28477pt too wide) in paragraph at lines 189--189
+ <./PDF/Use_Case_Diagram/Use_Case.pdf>]
+Overfull \hbox (0.28477pt too wide) in paragraph at lines 192--192
 [][]  
  []
 
 File: logo-hpi.pdf Graphic file (type pdf)
 <use logo-hpi.pdf>
-Package pdftex.def Info: logo-hpi.pdf  used on input line 189.
+Package pdftex.def Info: logo-hpi.pdf  used on input line 192.
 (pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
 [20
 
 ]
-Overfull \hbox (0.28477pt too wide) in paragraph at lines 189--189
+Overfull \hbox (0.28477pt too wide) in paragraph at lines 192--192
 [][]  
  []
 
 File: logo-hpi.pdf Graphic file (type pdf)
 <use logo-hpi.pdf>
-Package pdftex.def Info: logo-hpi.pdf  used on input line 189.
+Package pdftex.def Info: logo-hpi.pdf  used on input line 192.
 (pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
 [21
 
 ]
-Overfull \hbox (0.28477pt too wide) in paragraph at lines 189--189
+Overfull \hbox (0.28477pt too wide) in paragraph at lines 192--192
 [][]  
  []
 
 File: logo-hpi.pdf Graphic file (type pdf)
 <use logo-hpi.pdf>
-Package pdftex.def Info: logo-hpi.pdf  used on input line 189.
+Package pdftex.def Info: logo-hpi.pdf  used on input line 192.
 (pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
 [22
 
 ]
-Overfull \hbox (0.28477pt too wide) in paragraph at lines 189--189
+Overfull \hbox (0.28477pt too wide) in paragraph at lines 192--192
 [][]  
  []
 
 File: logo-hpi.pdf Graphic file (type pdf)
 <use logo-hpi.pdf>
-Package pdftex.def Info: logo-hpi.pdf  used on input line 189.
+Package pdftex.def Info: logo-hpi.pdf  used on input line 192.
 (pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
 [23
 
 ]
-Overfull \hbox (0.28477pt too wide) in paragraph at lines 189--189
+Overfull \hbox (0.28477pt too wide) in paragraph at lines 192--192
 [][]  
  []
 
 File: logo-hpi.pdf Graphic file (type pdf)
 <use logo-hpi.pdf>
-Package pdftex.def Info: logo-hpi.pdf  used on input line 189.
+Package pdftex.def Info: logo-hpi.pdf  used on input line 192.
 (pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
 [24
 
 ]
-Overfull \hbox (0.28477pt too wide) in paragraph at lines 189--189
+Overfull \hbox (0.28477pt too wide) in paragraph at lines 192--192
 [][]  
  []
 
 File: logo-hpi.pdf Graphic file (type pdf)
 <use logo-hpi.pdf>
-Package pdftex.def Info: logo-hpi.pdf  used on input line 189.
+Package pdftex.def Info: logo-hpi.pdf  used on input line 192.
 (pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
 [25
 
 ]
-Overfull \hbox (0.28477pt too wide) in paragraph at lines 198--198
+Overfull \hbox (0.28477pt too wide) in paragraph at lines 192--192
 [][]  
  []
 
 File: logo-hpi.pdf Graphic file (type pdf)
 <use logo-hpi.pdf>
-Package pdftex.def Info: logo-hpi.pdf  used on input line 198.
+Package pdftex.def Info: logo-hpi.pdf  used on input line 192.
 (pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
 [26
+
+]
+Overfull \hbox (0.28477pt too wide) in paragraph at lines 192--192
+[][]  
+ []
+
+File: logo-hpi.pdf Graphic file (type pdf)
+<use logo-hpi.pdf>
+Package pdftex.def Info: logo-hpi.pdf  used on input line 192.
+(pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
+[27
+
+]
+Overfull \hbox (0.28477pt too wide) in paragraph at lines 192--192
+[][]  
+ []
+
+File: logo-hpi.pdf Graphic file (type pdf)
+<use logo-hpi.pdf>
+Package pdftex.def Info: logo-hpi.pdf  used on input line 192.
+(pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
+[28
+
+]
+Overfull \hbox (179.53679pt too wide) in paragraph at lines 199--199
+[][][] 
+ []
+
+
+Overfull \vbox (24.0pt too high) detected at line 199
+ []
+
+File: ../backgrounds/Hauptgebaeude_Nacht.jpg Graphic file (type jpg)
+<use ../backgrounds/Hauptgebaeude_Nacht.jpg>
+Package pdftex.def Info: ../backgrounds/Hauptgebaeude_Nacht.jpg  used on input 
+line 199.
+(pdftex.def)             Requested size: 680.3055pt x 328.3848pt.
+File: logo-hpi-full.pdf Graphic file (type pdf)
+<use logo-hpi-full.pdf>
+Package pdftex.def Info: logo-hpi-full.pdf  used on input line 199.
+(pdftex.def)             Requested size: 108.12054pt x 61.09601pt.
+[29
 
 ]
 \tf@nav=\write7
@@ -1488,11 +1549,11 @@ Package pdftex.def Info: logo-hpi.pdf  used on input line 198.
 \tf@snm=\write9
 \openout9 = `beamer.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 199.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 199.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 200.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 200.
  (./beamer.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 199.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 199.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 200.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 200.
 
 
 Package rerunfilecheck Warning: File `beamer.out' has changed.
@@ -1500,25 +1561,31 @@ Package rerunfilecheck Warning: File `beamer.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `beamer.out':
-(rerunfilecheck)             Before: 5EC0BADC3C7F424288B9B25870ABC751;591
-(rerunfilecheck)             After:  A210E0501705A2085DEBAD1302530873;506.
+(rerunfilecheck)             Before: 76494A90B2C2450DA18E6918DD8563B1;464
+(rerunfilecheck)             After:  D7D9C69369C877EACAE6E783480E89A8;465.
  ) 
 Here is how much of TeX's memory you used:
- 25388 strings out of 492649
- 473110 string characters out of 6133384
+ 25386 strings out of 492649
+ 473101 string characters out of 6133384
  626533 words of memory out of 5000000
- 28626 multiletter control sequences out of 15000+600000
+ 28617 multiletter control sequences out of 15000+600000
  7694 words of font info for 24 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,16n,108p,814b,915s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Outline0.2.2.19} has been referenced but does not
+pdfTeX warning (dest): name{Outline0.2.1.18} has been referenced but does not
  exist, replaced by a fixed one
 
+pdfTeX warning (dest): name{Outline0.1.4.9} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.1.3.7} has been referenced but does not ex
+ist, replaced by a fixed one
+
 {T1-WGL4.enc}<NeoSansBold.ttf><NeoSans.ttf>
-Output written on beamer.pdf (26 pages, 3825978 bytes).
+Output written on beamer.pdf (29 pages, 4108635 bytes).
 PDF statistics:
- 2281 PDF objects out of 2487 (max. 8388607)
- 1550 compressed objects within 16 object streams
- 66 named destinations out of 1000 (max. 500000)
- 165 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5435 PDF objects out of 6186 (max. 8388607)
+ 3635 compressed objects within 37 object streams
+ 73 named destinations out of 1000 (max. 500000)
+ 149 words of extra memory for PDF output out of 10000 (max. 10000000)
 
