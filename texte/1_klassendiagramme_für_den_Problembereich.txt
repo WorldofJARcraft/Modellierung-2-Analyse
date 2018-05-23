@@ -1,0 +1,4 @@
+1 Klassendiagramme (für den Problembereich)
+
+Unser Hauptproblem war, die Komplexität des Diagramms einzuschränken. Dies zeigte sich darin, dass zwar Aggregation und Komposition herausgelassen werden, allerdings Typen und Visibilities einbezogen wurden. Außerdem wurden 5 der Führungspositionen im Soll-Diagramm dargestellt, was ebenfalls nicht nötig gewesen wäre.
+Gut geklappt hat die Darstellung der Daten der Helfer. Trotz anfänglicher Unklarheiten, wie die Daten strukturiert werden sollten, konnten wir eine gute Lösung für dieses Problem finden, die es erlaubte verschiedene Stammdaten und Qualifikationen eines Helfers besonders kompakt darzustellen. Dabei waren vor allem die gegeben Excel-Tabellen der Malteser hilfreich.
