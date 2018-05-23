@@ -1,0 +1,5 @@
+7 Teamwork und Kommunikation
+
+Obwohl jede Aufgabe im Team und nicht als Einzelarbeit bearbeitet wurde, gab es nie hitzig emotionale Diskussionen, sodass Konflikte immer schnell und sachlich gelöst werden konnten, was eine gute Zusammenarbeit garantiert hat.
+Die Kommunikationsmittel waren ein HackMD, ein Slack-Channel und eine Telegram-Gruppe. Über letztere lief die Organisation der Treffen, die anderen beiden waren zu Diskussion und Dokumentation von Ergebnissen gedacht. Allerdings war gerade in diesen die Response Time deutlich geringer und die Antworten auch unorganisierter.
+Letzendlich hätte man den Tutor stärker einbinden sollen und die Treffen konsequenter organisieren müssen.
