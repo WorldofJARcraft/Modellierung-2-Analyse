@@ -1,0 +1,5 @@
+// Prozess der objektorientierten Analyse - Reflexion
+
+Bei der Analyse ist in unserer Gruppe positiv anzumerken, dass es uns gelungen ist die einzelnen Akteure und Objekte des Problembereichs klar auszuarbeiten und anschließend deren Relationen und Geschäftsprozesse darzustellen.
+Ausbaufähig ist bei uns jedoch die Konsistenz der Benamung verschiedener Objekte zwischen verschiedenen Diagrammen.
+Weiterhin lässt sich anmerken, dass wir den Problembereich mehr als Datenmodell dargestellt haben, als das komplette System mit allen Akteuren zu modellieren.
