@@ -1,0 +1,84 @@
+%% LyX 2.2.3 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[11pt,ngerman,intoc]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{geometry}
+\geometry{verbose,tmargin=3cm,bmargin=2cm,lmargin=2cm,rmargin=2.3cm}
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{setspace}
+\onehalfspacing
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+\numberwithin{equation}{section}
+\numberwithin{table}{section}
+\numberwithin{figure}{section}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\RequirePackage[ngerman=ngerman-x-latest]{hyphsubst}
+\usepackage{caption}
+\usepackage{lmodern}
+\usepackage[bottom]{footmisc}
+\usepackage{setspace}
+\usepackage[natbibapa]{apacite} 
+\onehalfspacing
+\hyphenation{Dreh-mo-men-ten-gleich-ge-wicht} 
+\newtheorem{defi}{Definition}[section]
+\usepackage{url}
+\usepackage{ucs}
+\PrerenderUnicode{öäüÖÄÜ}
+\makeatletter
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
+\usepackage{pdfpages}
+\usepackage{acronym}
+\usepackage{graphicx}
+\usepackage[colorlinks=false,
+pdfpagelabels,
+pdfstartview = FitH,
+bookmarksopen = true,
+bookmarksnumbered = true,
+linkcolor = black,
+plainpages = false,
+hypertexnames = false,
+citecolor = black] {hyperref}
+\setlength{\parindent}{0pt}
+\PassOptionsToPackage{hyphens}{url}
+\usepackage{hyperref}
+\expandafter\def\expandafter\UrlBreaks\expandafter{\UrlBreaks% save the current one
+  \do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j%
+  \do\k\do\l\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t%
+  \do\u\do\v\do\w\do\x\do\y\do\z\do\A\do\B\do\C\do\D%
+  \do\E\do\F\do\G\do\H\do\I\do\J\do\K\do\L\do\M\do\N%
+  \do\O\do\P\do\Q\do\R\do\S\do\T\do\U\do\V\do\W\do\X%
+  \do\Y\do\Z\do\*\do\-\do\~\do\'\do\"\do\-}%
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+\includepdf{Deckblatt.pdf}\pagenumbering{Roman}
+\setcounter{page}{2}
+
+\section{Klassendiagramme (für den Problembereich)}
+
+\section{Aktivitätsdiagramme (für Geschäftsprozesse)}
+An sich halten wir Aktivitätsdiagramme für geeignet für Geschäftsprozesse, jedoch hätten wir die UML hier gern erweitert. Uns fehlte eine Aktivität, welche den Postausgang eines Mitgliedsantrags symbolisiert, sowie eine Möglichkeit, eindeutig darzustellen, dass auf eine Antwort reagiert wird.\\
+Wir hätten gern den Unterschied zwischen Aktionen und Aktivitäten gewusst, da wir so die Verschachtelung der Geschäftsprozesse besser hätten darstellen können.\\
+Unser Hauptproblem bei der Geschäftsprozessmodellierung war jedoch, dass wir bei den Interviewterminen scheinbar leider nicht alles richtig verstanden und deswegen bestimmte Details falsch dargestellt haben, etwa den Prozess der Mitgliedsaufnahme.
+\section{Anwendungsfalldiagramme}
+\section{Prozess der objektorientierten Analyse}
+Bei der Analyse ist in unserer Gruppe positiv anzumerken, dass es uns gelungen ist die einzelnen Akteure und Objekte des Problembereichs klar auszuarbeiten und anschließend deren Relationen und Geschäftsprozesse darzustellen.\\
+Ausbaufähig ist bei uns jedoch die Konsistenz der Benamung verschiedener Objekte zwischen verschiedenen Diagrammen.\\
+Weiterhin lässt sich anmerken, dass wir den Problembereich mehr als Datenmodell dargestellt haben, als das komplette System mit allen Akteuren zu modellieren.\\
+\section{Modellierungswerkzeuge}
+\section{Interviewführung}
+\section{Teamwork und Kommunikation}
+Obwohl jede Aufgabe im Team und nicht als Einzelarbeit bearbeitet wurde, gab es nie hitzig emotionale Diskussionen, sodass Konflikte immer schnell und sachlich gelöst werden konnten, was eine gute Zusammenarbeit garantiert hat.\\
+Die Kommunikationsmittel waren ein HackMD, ein Slack-Channel und eine Telegram-Gruppe. Über letztere lief die Organisation der Treffen, die anderen beiden waren zu Diskussion und Dokumentation von Ergebnissen gedacht.\\ Allerdings war gerade in diesen die Response Time deutlich geringer und die Antworten auch unorganisierter.\\
+Letztendlich hätte man den Tutor stärker einbinden sollen und die Treffen konsequenter organisieren müssen.\\
+
+\end{document}
