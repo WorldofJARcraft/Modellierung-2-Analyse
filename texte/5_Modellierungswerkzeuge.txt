@@ -1,0 +1,4 @@
+Wir haben alle Modelle zwecks einfacherer Zusammenarbeit am Whiteboard skizziert, dann abfotografiert und anschließend digitalisiert.
+Zur digitalen Modellierung haben wir  Visual Paradigm benutzt. Das hatte sowohl Vor- Als auch Nachteile. Die damit entstandenen Resultate waren sehr zufriedenstellend und das Tool bot genug Flexibilität, um alle gewünschten Diagramme zu realisieren.
+Die Modellierung selbst war aber teilweise etwas umständlich. Viele Layoutaspekte mussten mehrfach eingestellt werden und die Exportfunktion hatte an manchen Stellen ihre Mängel.
+Leider hat das Tool keine gut funktionierende Teamwork-Funktion. Wir mussten daher für jedes Modell ein neues Projekt erstellen.
