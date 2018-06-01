@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.5.19)  30 MAY 2018 18:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.5.19)  1 JUN 2018 10:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1101,93 +1101,93 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 (./mod2_2018_analyse_gruppe_3_kunde.nav)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 68.
+(hyperref)                setting the option has no effect on input line 69.
 
 
-Overfull \hbox (179.53679pt too wide) in paragraph at lines 73--73
+Overfull \hbox (179.53679pt too wide) in paragraph at lines 74--74
 [][][] 
  []
 
 
-Overfull \vbox (24.0pt too high) detected at line 73
+Overfull \vbox (24.0pt too high) detected at line 74
  []
 
-<../backgrounds/Hauptgebaeude_Nacht.jpg, id=29, 3603.4625pt x 1739.49875pt>
+<../backgrounds/Hauptgebaeude_Nacht.jpg, id=33, 3603.4625pt x 1739.49875pt>
 File: ../backgrounds/Hauptgebaeude_Nacht.jpg Graphic file (type jpg)
 <use ../backgrounds/Hauptgebaeude_Nacht.jpg>
 Package pdftex.def Info: ../backgrounds/Hauptgebaeude_Nacht.jpg  used on input 
-line 73.
+line 74.
 (pdftex.def)             Requested size: 680.3055pt x 328.3848pt.
-<logo-hpi-full.pdf, id=30, 245.83043pt x 138.91197pt>
+<logo-hpi-full.pdf, id=34, 245.83043pt x 138.91197pt>
 File: logo-hpi-full.pdf Graphic file (type pdf)
 <use logo-hpi-full.pdf>
-Package pdftex.def Info: logo-hpi-full.pdf  used on input line 73.
+Package pdftex.def Info: logo-hpi-full.pdf  used on input line 74.
 (pdftex.def)             Requested size: 108.12054pt x 61.09601pt.
 [1
 
  <../backgrounds/Hauptgebaeude_Nacht.jpg> <./logo-hpi-full.pdf>]
 (./mod2_2018_analyse_gruppe_3_kunde.toc)
-Overfull \hbox (0.28477pt too wide) in paragraph at lines 79--79
+Overfull \hbox (0.28477pt too wide) in paragraph at lines 80--80
 [][]  
  []
 
-<logo-hpi.pdf, id=65, 245.70496pt x 114.12135pt>
+<logo-hpi.pdf, id=70, 245.70496pt x 114.12135pt>
 File: logo-hpi.pdf Graphic file (type pdf)
 <use logo-hpi.pdf>
-Package pdftex.def Info: logo-hpi.pdf  used on input line 79.
+Package pdftex.def Info: logo-hpi.pdf  used on input line 80.
 (pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
 LaTeX Font Info:    Font shape `T1/neosans/bx/n' in size <10.5> not available
-(Font)              Font shape `T1/neosans/mb/n' tried instead on input line 79
+(Font)              Font shape `T1/neosans/mb/n' tried instead on input line 80
 .
 [2
 
  <./logo-hpi.pdf>]
-Overfull \hbox (0.28477pt too wide) in paragraph at lines 91--91
+Overfull \hbox (0.28477pt too wide) in paragraph at lines 92--92
 [][]  
  []
 
 File: logo-hpi.pdf Graphic file (type pdf)
 <use logo-hpi.pdf>
-Package pdftex.def Info: logo-hpi.pdf  used on input line 91.
+Package pdftex.def Info: logo-hpi.pdf  used on input line 92.
 (pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
 [3
 
 ]
-<PDF/Klassendiagramm_ist.pdf, id=107, 784.9325pt x 433.62pt>
+<PDF/Klassendiagramm_ist.pdf, id=111, 784.9325pt x 481.8pt>
 File: PDF/Klassendiagramm_ist.pdf Graphic file (type pdf)
 <use PDF/Klassendiagramm_ist.pdf>
-Package pdftex.def Info: PDF/Klassendiagramm_ist.pdf  used on input line 97.
-(pdftex.def)             Requested size: 543.16302pt x 300.07811pt.
+Package pdftex.def Info: PDF/Klassendiagramm_ist.pdf  used on input line 98.
+(pdftex.def)             Requested size: 491.85117pt x 301.8996pt.
 
-Overfull \hbox (0.28477pt too wide) in paragraph at lines 97--97
+Overfull \hbox (0.28477pt too wide) in paragraph at lines 98--98
 [][]  
  []
 
 File: logo-hpi.pdf Graphic file (type pdf)
 <use logo-hpi.pdf>
-Package pdftex.def Info: logo-hpi.pdf  used on input line 97.
+Package pdftex.def Info: logo-hpi.pdf  used on input line 98.
 (pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
 [4
 
  <./PDF/Klassendiagramm_ist.pdf>]
-<PDF/Klassendiagramm_soll.pdf, id=1612, 784.9325pt x 379.4175pt>
+<PDF/Klassendiagramm_soll.pdf, id=1878, 784.9325pt x 397.485pt>
 File: PDF/Klassendiagramm_soll.pdf Graphic file (type pdf)
 <use PDF/Klassendiagramm_soll.pdf>
-Package pdftex.def Info: PDF/Klassendiagramm_soll.pdf  used on input line 101.
-(pdftex.def)             Requested size: 543.16302pt x 262.56834pt.
+Package pdftex.def Info: PDF/Klassendiagramm_soll.pdf  used on input line 102.
+(pdftex.def)             Requested size: 543.16302pt x 275.0716pt.
 
-Overfull \hbox (0.28477pt too wide) in paragraph at lines 101--101
+Overfull \hbox (0.28477pt too wide) in paragraph at lines 102--102
 [][]  
  []
 
 File: logo-hpi.pdf Graphic file (type pdf)
 <use logo-hpi.pdf>
-Package pdftex.def Info: logo-hpi.pdf  used on input line 101.
+Package pdftex.def Info: logo-hpi.pdf  used on input line 102.
 (pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
 [5
 
  <./PDF/Klassendiagramm_soll.pdf>]
-<PDF/BusinessP/Mitglied_werden.pdf, id=3168, 784.9325pt x 183.68625pt>
+<PDF/BusinessP/Mitglied_werden.pdf, id=3642, 784.9325pt x 183.68625pt>
 File: PDF/BusinessP/Mitglied_werden.pdf Graphic file (type pdf)
 <use PDF/BusinessP/Mitglied_werden.pdf>
 Package pdftex.def Info: PDF/BusinessP/Mitglied_werden.pdf  used on input line 
@@ -1205,7 +1205,7 @@ Package pdftex.def Info: logo-hpi.pdf  used on input line 108.
 [6
 
  <./PDF/BusinessP/Mitglied_werden.pdf>]
-<PDF/BusinessP/Daten_aendern.pdf, id=3568, 784.9325pt x 233.87375pt>
+<PDF/BusinessP/Daten_aendern.pdf, id=4041, 784.9325pt x 233.87375pt>
 File: PDF/BusinessP/Daten_aendern.pdf Graphic file (type pdf)
 <use PDF/BusinessP/Daten_aendern.pdf>
 Package pdftex.def Info: PDF/BusinessP/Daten_aendern.pdf  used on input line 11
@@ -1223,7 +1223,7 @@ Package pdftex.def Info: logo-hpi.pdf  used on input line 113.
 [7
 
  <./PDF/BusinessP/Daten_aendern.pdf>]
-<PDF/BusinessP/Qualifikation_eintragen.pdf, id=3908, 784.9325pt x 223.83623pt>
+<PDF/BusinessP/Qualifikation_eintragen.pdf, id=4381, 784.9325pt x 223.83623pt>
 File: PDF/BusinessP/Qualifikation_eintragen.pdf Graphic file (type pdf)
 <use PDF/BusinessP/Qualifikation_eintragen.pdf>
 Package pdftex.def Info: PDF/BusinessP/Qualifikation_eintragen.pdf  used on inp
@@ -1241,7 +1241,7 @@ Package pdftex.def Info: logo-hpi.pdf  used on input line 118.
 [8
 
  <./PDF/BusinessP/Qualifikation_eintragen.pdf>]
-<PDF/BusinessP/Qualifikation_erneuern.pdf, id=4344, 784.9325pt x 45.16875pt>
+<PDF/BusinessP/Qualifikation_erneuern.pdf, id=4817, 784.9325pt x 45.16875pt>
 File: PDF/BusinessP/Qualifikation_erneuern.pdf Graphic file (type pdf)
 <use PDF/BusinessP/Qualifikation_erneuern.pdf>
 Package pdftex.def Info: PDF/BusinessP/Qualifikation_erneuern.pdf  used on inpu
@@ -1259,7 +1259,7 @@ Package pdftex.def Info: logo-hpi.pdf  used on input line 124.
 [9
 
  <./PDF/BusinessP/Qualifikation_erneuern.pdf>]
-<PDF/BusinessP/Austreten.pdf, id=4550, 474.77371pt x 46.1725pt>
+<PDF/BusinessP/Austreten.pdf, id=5024, 474.77371pt x 46.1725pt>
 File: PDF/BusinessP/Austreten.pdf Graphic file (type pdf)
 <use PDF/BusinessP/Austreten.pdf>
 Package pdftex.def Info: PDF/BusinessP/Austreten.pdf  used on input line 129.
@@ -1276,11 +1276,11 @@ Package pdftex.def Info: logo-hpi.pdf  used on input line 129.
 [10
 
  <./PDF/BusinessP/Austreten.pdf>]
-<PDF/Use_Case.pdf, id=4708, 784.9325pt x 482.80376pt>
+<PDF/Use_Case.pdf, id=5182, 651.43375pt x 537.00626pt>
 File: PDF/Use_Case.pdf Graphic file (type pdf)
 <use PDF/Use_Case.pdf>
 Package pdftex.def Info: PDF/Use_Case.pdf  used on input line 136.
-(pdftex.def)             Requested size: 490.83311pt x 301.8996pt.
+(pdftex.def)             Requested size: 366.23177pt x 301.8996pt.
 
 Overfull \hbox (0.28477pt too wide) in paragraph at lines 136--136
 [][]  
@@ -1293,39 +1293,24 @@ Package pdftex.def Info: logo-hpi.pdf  used on input line 136.
 [11
 
  <./PDF/Use_Case.pdf>]
-LaTeX Font Info:    Font shape `T1/neosans/bx/n' in size <14> not available
-(Font)              Font shape `T1/neosans/mb/n' tried instead on input line 14
-4.
-
-Overfull \hbox (0.28477pt too wide) in paragraph at lines 144--144
-[][]  
- []
-
-File: logo-hpi.pdf Graphic file (type pdf)
-<use logo-hpi.pdf>
-Package pdftex.def Info: logo-hpi.pdf  used on input line 144.
-(pdftex.def)             Requested size: 108.12054pt x 50.21703pt.
-[12
-
-]
-Overfull \hbox (179.53679pt too wide) in paragraph at lines 148--148
+Overfull \hbox (179.53679pt too wide) in paragraph at lines 141--141
 [][][] 
  []
 
 
-Overfull \vbox (24.0pt too high) detected at line 148
+Overfull \vbox (24.0pt too high) detected at line 141
  []
 
 File: ../backgrounds/Hauptgebaeude_Nacht.jpg Graphic file (type jpg)
 <use ../backgrounds/Hauptgebaeude_Nacht.jpg>
 Package pdftex.def Info: ../backgrounds/Hauptgebaeude_Nacht.jpg  used on input 
-line 148.
+line 141.
 (pdftex.def)             Requested size: 680.3055pt x 328.3848pt.
 File: logo-hpi-full.pdf Graphic file (type pdf)
 <use logo-hpi-full.pdf>
-Package pdftex.def Info: logo-hpi-full.pdf  used on input line 148.
+Package pdftex.def Info: logo-hpi-full.pdf  used on input line 141.
 (pdftex.def)             Requested size: 108.12054pt x 61.09601pt.
-[13
+[12
 
 ]
 \tf@nav=\write7
@@ -1337,43 +1322,29 @@ Package pdftex.def Info: logo-hpi-full.pdf  used on input line 148.
 \tf@snm=\write9
 \openout9 = `mod2_2018_analyse_gruppe_3_kunde.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 149.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 149.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 142.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 142.
  (./mod2_2018_analyse_gruppe_3_kunde.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 149.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 149.
-
-
-Package rerunfilecheck Warning: File `mod2_2018_analyse_gruppe_3_kunde.out' has
- changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `mod2_2018_analyse_gruppe_3_kunde.ou
-t':
-(rerunfilecheck)             Before: CC54A3FD6035F22B65DC72CEAEAC1E15;248
-(rerunfilecheck)             After:  D5624DD41B7E90EA195A3A260422CDA5;311.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 142.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 142.
+Package rerunfilecheck Info: File `mod2_2018_analyse_gruppe_3_kunde.out' has no
+t changed.
+(rerunfilecheck)             Checksum: D5624DD41B7E90EA195A3A260422CDA5;311.
  ) 
 Here is how much of TeX's memory you used:
- 25315 strings out of 492649
- 472534 string characters out of 6133384
+ 25301 strings out of 492649
+ 472288 string characters out of 6133384
  620533 words of memory out of 5000000
- 28582 multiletter control sequences out of 15000+600000
- 7694 words of font info for 24 fonts, out of 8000000 for 9000
+ 28574 multiletter control sequences out of 15000+600000
+ 7316 words of font info for 23 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,16n,108p,840b,915s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Outline0.1.2.6} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.1.1.4} has been referenced but does not ex
-ist, replaced by a fixed one
-
 {T1-WGL4.enc}<NeoSansBold.ttf><NeoSans.ttf>
-Output written on mod2_2018_analyse_gruppe_3_kunde.pdf (13 pages, 4207622 bytes
+Output written on mod2_2018_analyse_gruppe_3_kunde.pdf (12 pages, 4328747 bytes
 ).
 PDF statistics:
- 5639 PDF objects out of 6186 (max. 8388607)
- 3738 compressed objects within 38 object streams
- 36 named destinations out of 1000 (max. 500000)
- 130 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6373 PDF objects out of 7423 (max. 8388607)
+ 4222 compressed objects within 43 object streams
+ 30 named destinations out of 1000 (max. 500000)
+ 138 words of extra memory for PDF output out of 10000 (max. 10000000)
 
