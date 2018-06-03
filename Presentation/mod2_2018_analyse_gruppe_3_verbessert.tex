@@ -167,29 +167,40 @@ Wenn ein Mitglied beschließt, die Malteser zu verlassen, reicht es seinen Antra
 \section{Produktfunktion}		
 \begin{frame}
 \frametitle{Produktfunktion}
+\begin{minipage}{0.6 \textwidth}
 \includegraphics[height=0.75 \textheight]{PDF/Use_Case.pdf}
+\end{minipage}
+\hfill
+\begin{minipage}{0.3 \textwidth}
+	Da die dargestellten Use Cases sich eng an die vorher definierten Geschäftsprozesse anlehnen, wurde auf die separate Modellierung eines Use Cases als Geschäftsprozess im folgenden Abschnitt verzichtet.
+\end{minipage}
 \end{frame}
 
 \subsection{Anwendungsfälle im Überblick}		
 \begin{frame}
 \frametitle{Anwendungsfälle im Überblick}
 \begin{acronym}[Qualifikation(en) eintragen/aktualisieren]
-	\acro{Helferdaten anzeigen} {Berechtigte Personen (z.B. Personalbeauftragter der Gliederung, hauptamtliche Mitglieder der Diozöse) können die für sie freigegebenen Daten der für sie einsehbaren Helfer abrufen.}
+	\acro{Helferdaten anzeigen} {Berechtigte Personen (z.B. Personalbeauftragter der Gliederung, hauptamtliche Mitglieder der Diozöse) können die für sie freigegebenen Helferdaten abrufen.}
 	\acro{ablaufende Qualifikationen anzeigen} {Berechtigte (z.B. Personalbeauftragte) können sich anzeigen lassen, welche Qualifikationen (z.B. Führerscheine) bald nicht mehr gültig sind.}
 		\acro{Qualifikation(en) eintragen/aktualisieren} {Wird eine neue Qualifikation wie eine neue Führerscheinklasse erworben oder eine bestehende Qualifikation verlängert, wird die zugehörige Urkunde geprüft und die Qualifikation eingespeichert.}
 	\end{acronym}
 \end{frame}
 
-\begin{frame}
-\frametitle{Qualifikation(en) eintragen/aktualisieren}
-\includegraphics[width=\textwidth]{PDF/BusinessP/Qualifikation_eintragen.pdf}
-\end{frame}
+
 
 \begin{frame}
 \frametitle{Anwendungsfälle im Überblick}
 \begin{acronym}[verifizierte Stammdaten übernehmen]
 	\acro{(geänderte) Stammdaten eintragen}{Ändern sich die Stammdaten eines Helfers (wie Adresse, Telefonnummer, ...) teilt dieser das dem Personalbeauftragten mit, welcher die gespeicherten Daten aktualisiert.}
 	\acro{verifizierte Stammdaten übernehmen} {Manche Stammdatenänderungen (wie Telefonnummer) müssen verifiziert werden, bevor das System sie übernimmt. Die hauptamtlichen Mitarbeiter der Diozöse führen die entsprechenden Prüfungen durch und tragen sie nach Bestätigung ein.}
+\end{acronym}
+\end{frame}
+
+\begin{frame}
+\frametitle{Anwendungsfälle im Überblick}
+\begin{acronym}[Helferdaten archivieren]
+	\acro{Helfereintrag anlegen}{Tritt ein neues Mitglied bei, werden dessen Stammdaten entweder direkt vom Neuhelferbeauftragten beim persönlichen Gespräch oder nach Aufnahmeinformation von der Bundesverwaltung ins System eingegeben.}
+	\acro{Helferdaten archivieren} {Tritt ein Mitglied aus den Maltesern aus, werden dessen Stamm- und Qualifikationsdaten in einer separaten Datenbank gespeichert und können bei einem erneuten Beitritt wieder geladen werden.}
 \end{acronym}
 \end{frame}
 
