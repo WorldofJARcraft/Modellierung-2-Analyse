@@ -1,0 +1,1 @@
+Ein Einkaufsmanager kann für alle Materialien eine **Soll Anzahl eingeben** (LagerGUI, LagerServer). **Materialliste holen** (LagerGui, LagerServer).

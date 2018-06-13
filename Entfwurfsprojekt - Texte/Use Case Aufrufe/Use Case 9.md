@@ -1,0 +1,1 @@
+Ein Lagerist betrachtet alle Bestellungen. **Bestellungsliste holen** (LagerGUI, LagerServer). Er kann über die GUI dann Vermerke eingeben. Diese **Vermerke werden übermittelt** (LagerGUI, LagerServer) und daraus der neue Warenbestand ermittelt.

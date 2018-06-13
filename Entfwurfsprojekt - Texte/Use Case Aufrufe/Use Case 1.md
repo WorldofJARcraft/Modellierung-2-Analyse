@@ -1,0 +1,1 @@
+Ein Werkstattmitarbeiter scannt einen Barcode. Nachdem das Material des gescannten Barcodes angezeigt wurde, wird das Material gezählt und ein Bestand eingegeben und bestätigt. Draufhin wird der **Bestand übermittelt** (ScannerGUI, Werkstattserver). Intern rechnet der Werkstattserver nun einen Bedarf aus und fügt ihn der Anforderungsliste hinzu.
