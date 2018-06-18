@@ -1,1 +1,0 @@
-Ein Lagerist nutzt die LagerGUI, welche die **Anforderungsliste der Werkstätte anfordert** (LagerGUI, LagerServer). Der Lagerist **bestätigt eine der Anforderungen** (LagerGUI, LagerServer). Dadurch wird der Materialbestand des Lagers verringert und die Anforderung als erfüllt markeirt. Es gibt eine Druckoption.

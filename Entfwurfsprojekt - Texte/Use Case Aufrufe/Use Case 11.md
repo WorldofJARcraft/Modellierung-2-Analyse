@@ -1,1 +1,0 @@
-Ein Lagerist kann unter bestimmten Bedingungen die **Bedarfsliste einsehen** (LagerGUI, LagerServer) und diese evtl. ausdrucken.

@@ -1,1 +1,0 @@
-Ein Werkstattleiter **trägt Sonderbedarf ein** (WerkstattGUI, WerkstattServer), welcher aus Materialtyp, Anzahl und Begründung besteht. Der Sonderbedarf wird für spätere Verarbeitung gespeichert.

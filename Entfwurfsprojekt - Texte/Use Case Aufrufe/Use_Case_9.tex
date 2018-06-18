@@ -1,0 +1,9 @@
+Ein Lagerist betrachtet alle Bestellungen. (GUI holt Bestellungsliste von Lagerserver):
+
+\texttt{holeOffeneBestellungen() : GESBestellbestätigung []}
+
+Er wählt eine Bestellung aus und kann über die GUI dann Vermerke bezüglich gelieferter Anzahl und Zustand eingeben. Dann werden diese \textbf{Vermerke übermittelt} (von der GUI an den Server)
+
+\texttt{dokumentiereWareneingang(bestellung : GESBestellbestätigung, wareneingang : Lieferposition[])}
+
+Der Server ermittelt daraus den neuen Warenbestand.

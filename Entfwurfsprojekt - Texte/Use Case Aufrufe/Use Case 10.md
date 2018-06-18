@@ -1,1 +1,0 @@
-Ein Lagerist verändert über die GUI Großhändlerdaten. **Großohändlerliste holen** (LagerGUI, LagerServer). Er kann **Großhändler neuerstellen** (LagerGUI, LagerServer), **Großhändler löschen** (LagerGUI, LagerServer) und **Großhändler bearbeiten** (LagerGUI, LagerServer). Ersteres und Letzteres beinhalten Namen, Kontakt-, Kontodaten, IP Adresse und Materialliste. 
