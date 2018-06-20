@@ -1,2 +1,5 @@
+typ_und_menge[] -> Materialeintrag
+Material -> Materialvorrat
 Zeitrahmen = Lieferfrist
 Großhändlernamen können nicht geändert werden
+date ist ein primitiver Datentyp
