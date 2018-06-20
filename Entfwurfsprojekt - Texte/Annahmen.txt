@@ -1,0 +1,2 @@
+Zeitrahmen = Lieferfrist
+Großhändlernamen können nicht geändert werden
