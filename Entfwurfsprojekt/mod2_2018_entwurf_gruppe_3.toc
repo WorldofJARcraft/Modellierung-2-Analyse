@@ -1,0 +1,8 @@
+\babel@toc {ngerman}{}
+\beamer@sectionintoc {1}{Abstrakte Architektur}{3}{0}{1}
+\beamer@sectionintoc {2}{Interaktion der Komponenten}{4}{0}{2}
+\beamer@sectionintoc {3}{Komponentenschnittstellen}{5}{0}{3}
+\beamer@sectionintoc {4}{Konkrete Architektur}{6}{0}{4}
+\beamer@sectionintoc {5}{ Innere Struktur der Komponenten}{7}{0}{5}
+\beamer@sectionintoc {6}{Paketstruktur}{8}{0}{6}
+\beamer@sectionintoc {7}{Paketdetails}{9}{0}{7}
