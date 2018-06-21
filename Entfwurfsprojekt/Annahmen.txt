@@ -1,5 +1,7 @@
 typ_und_menge[] -> Materialeintrag
 Material -> Materialvorrat
 Zeitrahmen = Lieferfrist
+wenn zeitlimit bei Anfrage 0 -> kein Zeitlimit
+Artikelbezeichnungen sind string
 Großhändlernamen können nicht geändert werden
 date ist ein primitiver Datentyp
