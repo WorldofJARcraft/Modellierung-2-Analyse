@@ -1,10 +1,10 @@
-Ein Lagerist nutzt die LagerGUI, welche die \textbf{Anforderungsliste der Werkstätte anfordert} (vom Lagerserver):
+Ein Lagerist nutzt die LagerGUI, welche die \textbf{erfüllbaren Lieferaufträge anfordert} (vom Lagerserver):
 
-\texttt{holeAnforderungen() : Anforderung []}
+\texttt{holeLieferaufträge() : Lieferauftrag []}
 
 Der Server übernimmt dabei die Umrechnung von Stückzahl in Verpackungseinheiten.
 Der Lagerist kann eine Anforderung auswählen (nach Wunsch auch ausdrucken) und \textbf{bestätigen}.
 
-\texttt{bestätigeAnforderung(anforderung : Anforderung)}
+\texttt{bestätigeLieferauftrag(auftrag : Lieferauftrag)}
 
-Der Server markiert die Anforderung daraufhin als bestätigt und reduziert den Materialbestand.
+Der Server löscht daraufhin den Lieferauftrag und reduziert den Materialbestand.
