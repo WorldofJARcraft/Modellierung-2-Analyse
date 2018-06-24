@@ -1,0 +1,10 @@
+Ein Lagerist nutzt die LagerGUI, welche die \textbf{erfüllbaren Lieferaufträge anfordert} (vom Lagerserver):
+
+\texttt{holeLieferaufträge() : Lieferauftrag[]}
+
+Der Server übernimmt dabei die Umrechnung von Stückzahl in Verpackungseinheiten.
+Der Lagerist kann eine Anforderung auswählen (nach Wunsch auch ausdrucken) und \textbf{bestätigen}.
+
+\texttt{bestätigeLieferauftrag(auftrag : Lieferauftrag)}
+
+Der Server löscht daraufhin den Lieferauftrag und reduziert den Materialbestand.

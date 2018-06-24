@@ -1,0 +1,11 @@
+Ein Lagerist betrachtet über die GUI eine Liste der Großhändler (GUI \textbf{holt Großohändlerliste} von Lagerserver).
+
+\texttt{holeGroßhändlerliste() : Großhändlerkontakt[]}
+
+Er kann einen \textbf{Großhändler löschen} oder einen \textbf{Großhändler aktualisieren bzw. neuerstellen}, wobei der Name eines bestehenden Großhändlers nicht geändert werden kann und zum Erstellen eines neuen Großhändlers einfach ein noch nicht vorhandener Name eingegeben wird.
+Eine entsprechende Anfrage wird von der GUI an den Lagerserver gesendet:
+
+\texttt{löscheGroßhändlerkontakt(großhändler : Großhändlerkontakt)} \\
+\texttt{aktualisiereGroßhändlerkontakt(großhändler : Großhändlerkontakt)}
+
+Ein Großhändlerkontakt Eintrag beinhaltet Name, Kontakt, Kontodaten, IP-Adresse und die Artikelbezeichnungen.

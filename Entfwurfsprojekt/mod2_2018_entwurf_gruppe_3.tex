@@ -75,37 +75,101 @@
 	\begin{frame}
 		\frametitle{Gliederung}
 		\tableofcontents
-		%Folien mit einem * im Titel sollen beim Vortrag übersprungen werden.
+		Folien mit einem * im Titel sollen beim Vortrag übersprungen werden.
+	\end{frame}
+	\section*{Annahmen}
+	\begin{frame}{Annahmen}
+	Es wurden folgende Annahmen für das erstellte Modell getroffen:
+	\begin{itemize}
+		\item Der Datentyp \textbf{typ\_und\_Menge} kann als Materialliste bezeichnet werden.
+		\item Mit Material ist Materialvorrat gemeint.
+		\item Der Zeitrahmen entspricht der Lieferfrist.
+		\item Ist das Zeitlimit bei einer Anfrage 0, dann gibt es kein Zeitlimit.
+		\item Artikelbezeichnungen können mit dem Datentyp String dargestellt werden.
+		\item Großhändlernamen können nicht geändert werden.
+		\item \textbf{date} ist ein primitiver Datentyp.
+	\end{itemize}
 	\end{frame}
 	\section{Abstrakte Architektur}
 	\begin{frame}{Abstrakte Architektur}
 		\includegraphics[width=\textwidth]{PDF/abstrakte_Architektur.pdf}
 	\end{frame}
 	\section{Interaktion der Komponenten}
-	\begin{frame}{Interaktion der Komponenten}
-
+	\begin{frame}{Use Case 1 - Bestand dokumentieren}
+	\input{Use_Case_Aufrufe/Use_Case_1.tex}
+\end{frame}
+	\begin{frame}{Use Case 2 - Auftrag eintragen}
+		\includegraphics[width=\textwidth]{PDF/Use_Case_2-Auftrag_eintragen.pdf}
 	\end{frame}
+	\begin{frame}{Use Case 3 - Materialanfrage beantworten}
+		\includegraphics[width=\textwidth]{PDF/Use_Case_3-Materialanfrage_beantworten.pdf}
+	\end{frame}
+	\begin{frame}{Use Case 4 - Projektvorlage bearbeiten}
+		\includegraphics[height=0.75 \textheight]{PDF/Use_Case_4-Projektvorlage_bearbeiten.pdf}
+	\end{frame}
+		\begin{frame}{Use Case 5 - Sonderbedarf eintragen}
+		\input{Use_Case_Aufrufe/Use_Case_5.tex}
+	
+	\end{frame}
+	\begin{frame}{Use Case 6 - Anforderung abschicken}
+		\includegraphics[width=\textwidth]{PDF/Use_Case_6-Anforderung_abschicken.pdf}
+	\end{frame}
+\begin{frame}{Use Case 7 - Sollbestand festlegen}
+\input{Use_Case_Aufrufe/Use_Case_7.tex}
+\end{frame}
+\begin{frame}{Use Case 8 - Anforderung empfangen}
+\input{Use_Case_Aufrufe/Use_Case_8.tex}
+\end{frame}
+\begin{frame}{Use Case 9 - Wareneingang dokumentieren}
+\input{Use_Case_Aufrufe/Use_Case_9.tex}
+\end{frame}
+\begin{frame}{Use Case 10 - Großhändler bearbeiten}
+\input{Use_Case_Aufrufe/Use_Case_10.tex}
+\end{frame}
+\begin{frame}{Use Case 11 - Bedarf identifizieren}
+\input{Use_Case_Aufrufe/Use_Case_11.tex}
+\end{frame}
+	\begin{frame}{Use Case 12 - Bestellung aufgeben}
+		\includegraphics[width=\textwidth]{PDF/Use_Case_12-Bestellung_aufgeben.pdf}
+	\end{frame}
+\begin{frame}{Use Case 13 - Lagermengen bearbeiten}
+\input{Use_Case_Aufrufe/Use_Case_13.tex}
+\end{frame}
 	\section{Komponentenschnittstellen}
 	\begin{frame}{Komponentenschnittstellen}
-
+		\includegraphics[width=\textwidth]{PDF/Schnittstellen.pdf}
 	\end{frame}
 	\section{Konkrete Architektur}
 	\begin{frame}{Konkrete Architektur}
-
+		\includegraphics[width=\textwidth]{PDF/Konkrete_Architektur.pdf}
 	\end{frame}
 	\section{ Innere Struktur der Komponenten}
-	\begin{frame}{Innere Struktur der Komponenten}
-
+	\begin{frame}{Innere Struktur des Werkstattservers}
+		\includegraphics[width=\textwidth]{PDF/WS_Innere_Struktur.pdf}
+	\end{frame}
+	\begin{frame}{Innere Struktur des Werkstattservers}
+		\includegraphics[width=\textwidth]{PDF/LS_Innere_Struktur.pdf}
 	\end{frame}
 	\section{Paketstruktur}
 	\begin{frame}{Paketstruktur}
-
+		\includegraphics[height=0.75 \textheight]{PDF/Paket_Struktur.pdf}
 	\end{frame}
 	\section{Paketdetails}
 	\begin{frame}{Paketdetails}
-
+		\includegraphics[width=\textwidth]{PDF/Paketdetails.pdf}
 	\end{frame}
-
+\begin{frame}{Detailansicht - Werkstatt}
+\includegraphics[width=\textwidth]{PDF/Werkstatt_Paket.pdf}
+\end{frame}
+\begin{frame}{Detailansicht - Kommunikation}
+\includegraphics[width=\textwidth]{PDF/Kommunikation_Paket.pdf}
+\end{frame}
+\begin{frame}{Detailansicht - Zentrallager}
+\includegraphics[width=\textwidth]{PDF/Zentrallager_Paket.pdf}
+\end{frame}
+\begin{frame}{Detailansicht - Großhändler}
+\includegraphics[width=\textwidth]{PDF/GH_Paket.pdf}
+\end{frame}
 	\begin{frame}[title=Hauptgebaeude_Nacht.jpg]
 		\maketitle
 		\date{26. Mai 2018}

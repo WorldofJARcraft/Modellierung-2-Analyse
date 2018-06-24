@@ -1,0 +1,7 @@
+Ein Einkaufsmanager kann in der Lager-GUI eine \textbf{Liste aller gelagerten Materialien aufrufen} (beinhaltet jeweiligen Sollbestand):
+
+\texttt{holeVorratsliste() : Materialvorrat[]}
+
+Für alle Materialien kann er einen \textbf{Sollbestand festlegen}, der dann an den Server übertragen wird. Es wird dabei der gesamte Materialeintrag übertragen, wobei der Server das geänderte Material anhand des Typs identifiziert. Dass nur der Sollbestand, nicht aber z.B. die Packungsgröße geändert werden kann, ist Aufgabe der GUI:
+
+\texttt{aktualisiereMaterialvorrat(geänderter\_Materialvorrat : Materialvorrat)}
