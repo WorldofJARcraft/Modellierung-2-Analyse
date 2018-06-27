@@ -1,0 +1,3 @@
+// Prozess des objektorientierten Entwurfs - Reflexion
+
+Zunächst ist zu sagen, dass wir die Aufgabenstellung und deren Komplexität zunächst sehr unterschätzt haben. Anschließend ist uns jedoch der Sinn der Reihenfolge der Aufgaben geläufiger geworden und wir konnten uns besser in die Objektorientierung einarbeiten. Zum Ende hin war daher die Arbeit deutlich effektiver, auch wenn dadurch die Arbeitszeit pro Woche angestiegen ist.
