@@ -1,0 +1,4 @@
+12 Paketdiagramme
+
+In unserer Gruppe gab es anfangs Probleme bei dem finden einer passende Aufteilung der Klassen in einzelne Pakete, allerdings wurde im zweiten Versuch eine sinnvolle Aufteilung gefunden. 
+Auch bei der Benutzung von access und import gab es einige Ungewissheiten. Ein Teil davon wurde innerhalb der Gruppe geklärt und das Diagramm wurde dementsprechend korrigiert. Der andere Teil, welcher die Verwendung von access in Verbindung mit Interfaces war, wurde dann im Review geklärt.
