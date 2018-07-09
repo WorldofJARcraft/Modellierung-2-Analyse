@@ -1,0 +1,102 @@
+%% LyX 2.2.3 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[11pt,ngerman,intoc]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{geometry}
+\geometry{verbose,tmargin=3cm,bmargin=2cm,lmargin=2cm,rmargin=2.3cm}
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{setspace}
+\onehalfspacing
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+\numberwithin{equation}{section}
+\numberwithin{table}{section}
+\numberwithin{figure}{section}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\RequirePackage[ngerman=ngerman-x-latest]{hyphsubst}
+\usepackage{caption}
+\usepackage{lmodern}
+\usepackage[bottom]{footmisc}
+\usepackage{setspace}
+\usepackage[natbibapa]{apacite} 
+\onehalfspacing
+\hyphenation{Dreh-mo-men-ten-gleich-ge-wicht} 
+\newtheorem{defi}{Definition}[section]
+\usepackage{url}
+\usepackage{ucs}
+\PrerenderUnicode{öäüÖÄÜ}
+\makeatletter
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
+\usepackage{pdfpages}
+\usepackage{acronym}
+\usepackage{graphicx}
+\usepackage[colorlinks=false,
+pdfpagelabels,
+pdfstartview = FitH,
+bookmarksopen = true,
+bookmarksnumbered = true,
+linkcolor = black,
+plainpages = false,
+hypertexnames = false,
+citecolor = black] {hyperref}
+\setlength{\parindent}{0pt}
+\PassOptionsToPackage{hyphens}{url}
+\usepackage{hyperref}
+\usepackage{scrpage2}
+\pagestyle{scrheadings}
+\clearscrheadfoot
+\chead[]{Modellierung II - SoSe 2018 - Reflexion des Entwurfsprojekts - Gruppe 3}
+\cfoot[\pagemark]{\pagemark}
+\expandafter\def\expandafter\UrlBreaks\expandafter{\UrlBreaks% save the current one
+  \do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j%
+  \do\k\do\l\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t%
+  \do\u\do\v\do\w\do\x\do\y\do\z\do\A\do\B\do\C\do\D%
+  \do\E\do\F\do\G\do\H\do\I\do\J\do\K\do\L\do\M\do\N%
+  \do\O\do\P\do\Q\do\R\do\S\do\T\do\U\do\V\do\W\do\X%
+  \do\Y\do\Z\do\*\do\-\do\~\do\'\do\"\do\-}%
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+	
+\includepdf{Deckblatt.pdf}
+\setcounter{page}{2}
+\setcounter{section}{7}
+
+\section{Sequenzdiagramme}
+Die grundsätzliche Notation der Sequenzdiagramme bereitete uns wenig Probleme. Da wir die verschiedenen Sequenzdiagramme in der Gruppe aufteilten, war ein extra Schritt nötig um iterierend immer wieder einheitliche Benennungen einzuführen. Hierfür wären vermutlich zu Beginn festgelegte Richtlinien praktisch gewesen. Da die Sequenzdiagramme zu Beginn des Entwurfs stehen, lohnte es sich sehr an dieser Stelle schon die (gut versteckten) Visual Paradigm Features für Verknüpfungen zwischen den Diagrammen einzustellen. Relativ viel, im Ergebnis unnötiger, Aufwand entstand außerdem dadurch, dass wir am Anfang Sequenzdiagramme auf einer zu niedrigen Abstraktionsebene modelliert haben.
+
+\section{Klassendiagramme (für Schnittstellen, Datentypen und Feinentwurf)}
+Mit der Verwendung von Klassendiagrammen für die genannten Anforderungen hatten wir kaum Schwierigkeiten. Das einzige wirkliche Problem für uns war, die Verbindung von Klassendiagrammen und den Komponentenschnittstellen zu verstehen. Nach der Erklärung, dass diese letztlich das selbe auf einer anderen Abstraktionsebene aussagen, war dieses Problem jedoch gelöst.
+\section{Komponentendiagramme}
+Bei der Erstellung der Komponentendiagramme, hierbei bezogen auf das der konkreten Architektur (abstrakte Architektur war ja bereits gegeben), haben wir auf Grund der noch recht geringen Komplexität und der daraus resultierenden klareren Übersichtlichkeit und Nachvollziehbarkeit auf das Einfügen von ?thematischen? Schnittstellen verzichtet und stattdessen 1:1-Schnittstellen zwischen den einzelnen Komponenten erstellt. Außerdem haben wir die Ports weggelassen, da diese erst in einer späteren Verfeinerungsstufe dazukommen. Ansonsten hatten wir keine Schwierigkeiten bei der Erstellung.
+
+
+\section{Modellierung der inneren Struktur von Komponenten mit Klassendiagrammen}
+Für die Modellierung der inneren Struktur hätten wir uns über Referenzfolien gefreut, da aus der Vorlesung leider kein Beispiel zu entnehmen war, welches die Anbindung der Klassen an bzw. in die jeweilige Komponente darstellt. Wir brauchten eine Weile, um zu verstehen, wie die Verbindung der die innere Struktur repräsentierenden Klassen und der Ports bzw. Schnittstellen grafisch umzusetzen war. Ein entsprechendes Beispiel hätte uns hier wertvolle Zeit gespart.
+
+\section{Paketdiagramme}
+In unserer Gruppe gab es anfangs Probleme bei dem finden einer passende Aufteilung der Klassen in einzelne Pakete, allerdings wurde im zweiten Versuch eine sinnvolle Aufteilung gefunden. \\
+Auch bei der Benutzung von access und import gab es einige Ungewissheiten. Ein Teil davon wurde innerhalb der Gruppe geklärt und das Diagramm wurde dementsprechend korrigiert. Der andere Teil, welcher die Verwendung von access in Verbindung mit Interfaces war, wurde dann im Review geklärt.
+
+\section{Prozess des Objektorientierten Entwurfs}
+Zunächst ist zu sagen, dass wir die Aufgabenstellung und deren Komplexität zunächst sehr unterschätzt haben. Anschließend ist uns jedoch der Sinn der Reihenfolge der Aufgaben geläufiger geworden und wir konnten uns besser in die Objektorientierung einarbeiten. Zum Ende hin war daher die Arbeit deutlich effektiver, auch wenn dadurch die Arbeitszeit pro Woche angestiegen ist.
+
+\section{Modellierungswerkzeuge}
+Zur digitalen Modellierung haben wir  Visual Paradigm benutzt. Das hatte sowohl Vor- Als auch Nachteile. Die damit entstandenen Resultate waren sehr zufriedenstellend und das Tool bot genug Flexibilität, um alle gewünschten Diagramme zu realisieren.\\
+Die Modellierung selbst war aber teilweise etwas umständlich. Viele Layoutaspekte mussten mehrfach eingestellt werden und die Exportfunktion hatte an manchen Stellen ihre Mängel. Außerdem benötigt man eine hohe Einarbeitungszeit, um alle Funktionen in der etwas verschachtelten UI zu finden und effizient zu nutzen.\\
+Für das Analyseprojekt haben wir die Teamwork-Funktion von Visual Paradigm verwendet, die nach der recht umständlichen Einrichtung hervorragend funktioniert und die Kollaboration deutlich vereinfacht hat.
+
+\section{Teamwork und Kommunikation}
+Obwohl jede Aufgabe im Team und nicht als Einzelarbeit bearbeitet wurde, gab es nie hitzig emotionale Diskussionen, sodass Konflikte immer schnell und sachlich gelöst werden konnten, was eine gute Zusammenarbeit garantiert hat.\\
+Die Kommunikationsmittel waren ein HackMD, ein Slack-Channel und eine Telegram-Gruppe. Über letztere lief die Organisation der Treffen, die anderen beiden waren zu Diskussion und Dokumentation von Ergebnissen gedacht.\\ Allerdings war gerade in diesen die Response Time deutlich geringer und die Antworten auch unorganisierter.\\
+Die Einbeziehung des Tutors konnte im Vergleich zum Analyseprojekt verbessert werden, außerdem erfolgten konsequenter Treffen.\\
+
+\end{document}

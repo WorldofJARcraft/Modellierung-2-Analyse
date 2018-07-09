@@ -1,0 +1,169 @@
+	% Darmstadt|Frankfurt|JuanLesPins
+	
+	\documentclass{beamer}
+	\setbeamertemplate{navigation symbols}{}
+	
+	\usetheme{hpi}
+	\usepackage[ngerman]{babel}
+	\usepackage[utf8]{inputenc}
+	\usepackage{geometry}
+	\usepackage[T1]{fontenc}
+	\usepackage{graphicx} %Zum Bilder einbinden
+	\usepackage{float} %Damit die Figures, also die Bilder, mitten im Text, an geforceter Position erscheinen
+	\usepackage{verbatim} %für mehrzeilige Kommentare \begin~\end{comment}
+	\usepackage{amstext} % \text{asdf} in Formeln, statt \mbox, weil mbox die Schriftgröße festsetzt	
+	\usepackage{amsmath}
+	\usepackage{amssymb}
+	\usepackage{ucs}
+	\usepackage{BeamerColor}
+	
+	\usepackage{listings}
+	\usepackage{color}
+	\usepackage{hyperref}
+	\usepackage{acronym}
+	\definecolor{tplcolor}{HTML}{000000}
+	\usecolortheme[named=tplcolor]{structure}
+	
+	\lstset{
+		language=Java, 
+		inputencoding=utf8,
+		tabsize=2,
+		basicstyle=\tiny,
+		captionpos=b,language=JAVA,breaklines=true,      % the size of the fonts that are used for the line-numbers,
+		stepnumber=5,   
+		keywordstyle=\color{brown},
+		commentstyle=\color{DarkGreen}, 
+		stringstyle=\color{blue},
+		showstringspaces=false,
+		breaklines=true
+		literate=%
+		{Ö}{{\"O}}1
+		{Ä}{{\"A}}1
+		{Ü}{{\"U}}1
+		{ß}{{\ss}}1
+		{ü}{{\"u}}1
+		{ä}{{\"a}}1
+		{ö}{{\"o}}1
+		{~}{{\textasciitilde}}1	
+	}
+
+	\beamersetuncovermixins{\opaqueness<1>{25}}{\opaqueness<2->{15}}
+	
+	\usecaptiontemplate{
+	\tiny
+	\structure{\insertcaptionname~\insertcaptionnumber:}
+	\insertcaption
+	}
+	
+	\usefootnotetemplate{
+	\tiny
+	\parindent 1em\noindent
+	\hbox to 1.8em{\hfil\insertfootnotemark}\insertfootnotetext
+	}
+	\begin{document}
+			
+	\setbeamercovered{invisible}
+	
+	\title[Review - State Machine Projekt]{Review - State Machine Projekt\\ Eine kollisionsfreie Robotersteuerung}
+	\author{Gruppe 3}
+	
+	 \begin{frame}[title=Hauptgebaeude_Nacht.jpg]
+	 	\maketitle
+	 	\date{26. Mai 2018}
+ 	\end{frame}
+	 
+	\begin{frame}
+		\frametitle{Gliederung}
+		\tableofcontents
+		%Folien mit einem * im Titel sollen beim Vortrag übersprungen werden.
+	\end{frame}
+	\section{RobotHandler (Server)}
+	\begin{frame}{RobotHandler (Server)}
+	\centering
+		\includegraphics[height=0.75\textheight]{PDF/RobotHandler.pdf}
+	\end{frame}
+	\begin{frame}{RobotHandler (Server) - Detailansicht}
+	\includegraphics[height=0.75\textheight]{PDF/RobotHandler1.pdf}
+	\end{frame}	
+\begin{frame}{RobotHandler (Server) - Detailansicht}
+\includegraphics[height=0.75\textheight]{PDF/RobotHandler2.pdf}
+\end{frame}	
+\begin{frame}{RobotHandler (Server) - Detailansicht}
+\includegraphics[height=0.75\textheight]{PDF/RobotHandler3.pdf}
+\end{frame}	
+\begin{frame}{RobotHandler (Server) - Detailansicht}
+\includegraphics[width=\linewidth]{PDF/RobotHandler4.pdf}
+\end{frame}	
+	\section{TaskProcessing (Roboter)}
+	\begin{frame}{TaskProcessing (Roboter)}
+	\centering
+	\includegraphics[height=0.75\textheight]{PDF/TaskProcessing.pdf}
+	\end{frame}
+\begin{frame}{TaskProcessing (Roboter) - Detailansicht}
+\centering
+\includegraphics[width=0.8\linewidth]{PDF/TaskProcessing1.pdf}
+\end{frame}
+\begin{frame}{TaskProcessing (Roboter) - Detailansicht}
+\centering
+\includegraphics[width=\linewidth]{PDF/TaskProcessing2.pdf}
+\end{frame}
+
+\section{DriveSystem (Roboter)}
+\begin{frame}{DriveSystem (Roboter) - Übersicht (abstrakt)}
+\centering
+\includegraphics[height=0.75\textheight]{PDF/MiniDriveSystem.pdf}
+\end{frame}
+\begin{frame}{DriveSystem (Roboter) - Übersicht (detailliert)}
+\centering
+\includegraphics[height=0.75\textheight]{PDF/DriveSystem.pdf}
+\end{frame}
+\begin{frame}{DriveSystem (Roboter) - Detailansicht}
+\centering
+\includegraphics[height=0.75\textheight]{PDF/DriveSystem1.pdf}
+\end{frame}
+\begin{frame}{DriveSystem (Roboter) - Detailansicht}
+\centering
+\includegraphics[height=0.75\textheight]{PDF/DriveSystem2.pdf}
+\end{frame}
+\begin{frame}{DriveSystem (Roboter) - Detailansicht}
+\centering
+\includegraphics[height=0.75\textheight]{PDF/DriveSystem1.pdf}
+\end{frame}
+\begin{frame}{DriveSystem (Roboter) - Detailansicht}
+\centering
+\includegraphics[width=\linewidth]{PDF/DriveSystem4.pdf}
+\end{frame}
+\begin{frame}{DriveSystem (Roboter) - Detailansicht}
+\centering
+\includegraphics[height=0.75\textheight]{PDF/DriveSystem5.pdf}
+\end{frame}
+\begin{frame}{DriveSystem (Roboter) - Detailansicht}
+\centering
+\includegraphics[width=\linewidth]{PDF/DriveSystem6.pdf}
+\end{frame}
+\begin{frame}{DriveSystem (Roboter) - Detailansicht}
+\centering
+\includegraphics[height=0.75\textheight]{PDF/DriveSystem7.pdf}
+\end{frame}
+\begin{frame}{DriveSystem (Roboter) - Detailansicht}
+\centering
+\includegraphics[width=\linewidth]{PDF/DriveSystem8.pdf}
+\end{frame}
+\begin{frame}{DriveSystem (Roboter) - Detailansicht}
+\centering
+\includegraphics[width=\linewidth]{PDF/DriveSystem9.pdf}
+\end{frame}
+\section{Umgang mit Verklemmungen}
+\begin{frame}{Umgang mit Verklemmungen}
+\centering
+\includegraphics[height=0.75\textheight]{PDF/Deadlocks1.pdf}
+\end{frame}\begin{frame}{Umgang mit Verklemmungen}
+\centering
+\includegraphics[height=0.75\textheight]{PDF/Deadlocks2.pdf}
+\end{frame}
+	\begin{frame}[title=Hauptgebaeude_Nacht.jpg]
+		\maketitle
+		\date{26. Mai 2018}
+	\end{frame}
+\end{document}
+

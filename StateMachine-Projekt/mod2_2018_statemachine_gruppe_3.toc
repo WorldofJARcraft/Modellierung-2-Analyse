@@ -1,0 +1,5 @@
+\babel@toc {ngerman}{}
+\beamer@sectionintoc {1}{RobotHandler (Server)}{3}{0}{1}
+\beamer@sectionintoc {2}{TaskProcessing (Roboter)}{8}{0}{2}
+\beamer@sectionintoc {3}{DriveSystem (Roboter)}{11}{0}{3}
+\beamer@sectionintoc {4}{Umgang mit Verklemmungen}{22}{0}{4}
