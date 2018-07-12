@@ -71,19 +71,25 @@ citecolor = black] {hyperref}
 \setcounter{section}{15}
 
 \section{UML Zustandsdiagramme: Zustände}
-Die grundsätzliche Notation der Sequenzdiagramme bereitete uns wenig Probleme. Da wir die verschiedenen Sequenzdiagramme in der Gruppe aufteilten, war ein extra Schritt nötig um iterierend immer wieder einheitliche Benennungen einzuführen. Hierfür wären vermutlich zu Beginn festgelegte Richtlinien praktisch gewesen. Da die Sequenzdiagramme zu Beginn des Entwurfs stehen, lohnte es sich sehr an dieser Stelle schon die (gut versteckten) Visual Paradigm Features für Verknüpfungen zwischen den Diagrammen einzustellen. Relativ viel, im Ergebnis unnötiger, Aufwand entstand außerdem dadurch, dass wir am Anfang Sequenzdiagramme auf einer zu niedrigen Abstraktionsebene modelliert haben.
+Da uns das Prinzip des Automaten mit Zuständen bereits aus Modellierung 1 bekannt war, hatten wir an dieser Stelle keine fundamentalen Schwierigkeiten.\\
+Ein bedeutender Fehler war, den Startzustand als einen Zustand anzusehen, in den man zurückkehren kann. Außerdem hätten wir vielleicht etwas mehr mit entrys und der Do-Methode des Zustandes arbeiten sollen, etwa um das Warten auf eine Antwort darzustellen.
 
 \section{UML Zustandsdiagramme: Transitionen}
-Mit der Verwendung von Klassendiagrammen für die genannten Anforderungen hatten wir kaum Schwierigkeiten. Das einzige wirkliche Problem für uns war, die Verbindung von Klassendiagrammen und den Komponentenschnittstellen zu verstehen. Nach der Erklärung, dass diese letztlich das selbe auf einer anderen Abstraktionsebene aussagen, war dieses Problem jedoch gelöst.
+Die grundlegenden Möglichkeiten die zum Auslösen von Transitionen in der UML zur Verfügung stehen, bereiteten wenig Probleme.
+Viele mächtigere Möglichkeiten waren uns beim Lösen der Aufgabe jedoch nicht bekannt (insbesondere when-Statements). Hier hätten wir uns nach Verantwortlichkeiten noch tiefer in die UML einarbeiten sollen.\\
+Ein ähnliches Problem schafften wir uns mit Verkettungen von Entscheidungen, in denen Seiteneffekte auf Variablen auftraten, die zu einem späteren Zeitpunkt als Bedingung fungierten. Hier hätten mehr Zustände geholfen.\\
+Wir hätten uns außerdem eine detailliertere Auseinandersetzung mit solchen komplexeren Möglichkeiten im Rahmen der Vorlesung gewünscht.
+
 
 \section{UML Aktivitätsdiagramme für detaillierte Abläufe}
 Da unsere Lösung ohne zusätzliche Aktivitätsdiagramme ausgekommen ist, verzichten wir an dieser Stelle auf eine umfassende Reflexion. Das Feedback im Review hat jedoch gezeigt, dass es vermutlich an einigen Stellen sinnvoll gewesen wäre, kompliziertere Abläufe in einer Funktion zu kapseln die in einem Aktivitätsdiagramm über Selbstaufrufe dargestellt wird.
 
 \section{UML Klassendiagramme: Aktive Klassen und Enumerations}
-In unserer Gruppe gab es anfangs Probleme bei dem finden einer passende Aufteilung der Klassen in einzelne Pakete, allerdings wurde im zweiten Versuch eine sinnvolle Aufteilung gefunden. \\
-Auch bei der Benutzung von access und import gab es einige Ungewissheiten. Ein Teil davon wurde innerhalb der Gruppe geklärt und das Diagramm wurde dementsprechend korrigiert. Der andere Teil, welcher die Verwendung von access in Verbindung mit Interfaces war, wurde dann im Review geklärt.
+Mit der Verwendung von Enumerations hatten wir in keiner Weise Probleme, da diese bereits aus der Einführungsveranstaltung in die Programmiertechnik bekannt waren. Wir empfanden sie als sinnvolle Ergänzung zu den Methodenaufrufen und dem durch den aktuellen Zustand dargestellten Zustand des Automaten.\\
+Mit aktiven Klassen haben wir nicht gearbeitet, da unserer Meinung nach mit dem Zustandsautomaten das erwünschte Verhalten eindeutig dargestellt werden konnte.
 
 \section{Modellierungswerkzeuge, Teamwork und Kommunikation}
-Zunächst ist zu sagen, dass wir die Aufgabenstellung und deren Komplexität zunächst sehr unterschätzt haben. Anschließend ist uns jedoch der Sinn der Reihenfolge der Aufgaben geläufiger geworden und wir konnten uns besser in die Objektorientierung einarbeiten. Zum Ende hin war daher die Arbeit deutlich effektiver, auch wenn dadurch die Arbeitszeit pro Woche angestiegen ist.
+Da unser altbewärtes Tool Visual Paradigm keine besonders gute Implementation von State Machines bereitstellte haben wir uns für die Umsetzung mittels des Online-Tools draw.io entschieden. Da zu den Terminen schon sehr ausgereifte Modelle vorhanden waren, beschränkte sich die Kommunikation auf die gemeinsamen Treffen, in denen wir die Modelle und Vorträge finalisieren konnten.
+
 
 \end{document}
