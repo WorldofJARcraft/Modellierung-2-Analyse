@@ -1,0 +1,1 @@
+Da unser altbewärtes Tool Visual Paradigm keine besonders gute Implementation von State Machines bereitstellte haben wir uns für die Umsetzung mittels des Online-Tools draw.io entschieden. Da zu den Terminen schon sehr ausgereifte Modelle vorhanden waren, beschränkte sich die Kommunikation auf die gemeinsamen Treffen, in denen wir die Modelle und Vorträge finalisieren konnten.
