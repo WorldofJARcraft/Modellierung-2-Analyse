@@ -1,0 +1,1 @@
+Da unsere Lösung ohne zusätzliche Aktivitätsdiagramme ausgekommen ist, verzichten wir an dieser Stelle auf eine umfassende Reflexion. Das Feedback im Review hat jedoch gezeigt, dass es vermutlich an einigen Stellen sinnvoll gewesen wäre, kompliziertere Abläufe in einer Funktion zu kapseln die in einem Aktivitätsdiagramm über Selbstaufrufe dargestellt wird.

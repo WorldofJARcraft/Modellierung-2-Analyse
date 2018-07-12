@@ -1,0 +1,4 @@
+Die grundlegenden Möglichkeiten die zum Auslösen von Transitionen in der UML zur Verfügung stehen, bereiteten wenig Probleme.
+Viele mächtigere Möglichkeiten waren uns beim Lösen der Aufgabe jedoch nicht bekannt (insbesondere when-Statements). Hier hätten wir uns nach Verantwortlichkeiten noch tiefer in die UML einarbeiten sollen.
+Ein ähnliches Problem schafften wir uns mit Verkettungen von Entscheidungen, in denen Seiteneffekte auf Variablen auftraten, die zu einem späteren Zeitpunkt als Bedingung fungierten. Hier hätten mehr Zustände geholfen.
+Wir hätten uns außerdem eine detailliertere Auseinandersetzung mit solchen komplexeren Möglichkeiten im Rahmen der Vorlesung gewünscht.
